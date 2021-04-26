@@ -1,0 +1,19 @@
+{
+  "name": "leetcode",
+  "version": "1.0.0",
+  "description": "leetcode 刷题之旅",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "leetcode",
+    "javascript"
+  ],
+  "author": "automan",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LiHowe/leetcode.git"
+  },
+  "license": "ISC"
+}
