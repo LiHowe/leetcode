@@ -2,7 +2,7 @@ const timeLog = (name, fn, args, expect) => {
     console.time(name)
     const output = fn(...args)
     console.log('output ->', output)
-    console.log('result ->', output === expect ? '✅' : '❌')
+    console.log('result ->', JSON.stringify(output) === JSON.stringify(expect) ? '✅' : '❌')
     console.timeEnd(name)
 }
 const separator = () => {
