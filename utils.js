@@ -21,7 +21,7 @@ module.exports = {
             args = [args]
         }
         separator()
-        console.log('input ->', args)
+        console.log('input  ->', args)
         console.log('expect ->', expect)
         timeLog('runtime', fn, args, expect)
         separator()
