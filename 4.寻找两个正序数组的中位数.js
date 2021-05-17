@@ -72,7 +72,7 @@
  * 进阶：你能设计一个时间复杂度为 O(log (m+n)) 的算法解决此问题吗？
  * 
  */
-
+const { test } = require('./utils')
 // @lc code=start
 /**
  * @param {number[]} nums1
@@ -88,3 +88,8 @@ var findMedianSortedArrays = function(nums1, nums2) {
 };
 // @lc code=end
 
+test(findMedianSortedArrays, [[1,3], [2]], 2)
+test(findMedianSortedArrays, [[1,2], [3,4]], 2.5)
+test(findMedianSortedArrays, [[0,0], [0,0]], 0)
+test(findMedianSortedArrays, [[], [2]], 2)
+test(findMedianSortedArrays, [[1], []], 1)
