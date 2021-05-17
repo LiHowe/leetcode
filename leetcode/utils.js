@@ -9,6 +9,12 @@ const separator = () => {
     console.log('-----------------------------')
 }
 
+function TreeNode(val, left, right) {
+    this.val = (val===undefined ? 0 : val)
+    this.left = (left===undefined ? null : left)
+    this.right = (right===undefined ? null : right)
+}
+
 module.exports = {
     /**
      * 
@@ -26,4 +32,22 @@ module.exports = {
         timeLog('runtime', fn, args, expect)
         separator()
     },
+    /**
+     * 数组转换为二叉树
+     * @param {Array} arr 
+     */
+    generateTreeNode: (arr) => {
+        if (!arr || !arr.length) return null
+        const root = new TreeNode(arr.shift())
+        let target = root
+        while (arr.length) {
+            const val = arr.shift()
+            if (!root.left) {
+                
+            }
+            root[step % 2 ? 'right': 'left'] = new TreeNode(val)
+            step++
+        }
+        return res
+    }
 }
