@@ -1,9 +1,20 @@
-const timeLog = (name, fn, args, expect) => {
-    console.time(name)
+const seq = []
+let err = 0
+let pending = false
+const timeLog = (name, fn, args, expect, showAll) => {
     const output = fn(...args)
-    console.log('output ->', output)
-    console.log('result ->', JSON.stringify(output) === JSON.stringify(expect) ? '✅' : '❌')
-    console.timeEnd(name)
+    const res = JSON.stringify(output) === JSON.stringify(expect)
+    if (!res) err++
+    if (showAll || !res) {
+        separator()
+        console.log('input  ->', args)
+        console.log('expect ->', expect)
+        console.time(name)
+        console.log('output ->', output)
+        console.log('result ->', res ? '✅' : '❌')
+        console.timeEnd(name)
+        separator()
+    }
 }
 const separator = () => {
     console.log('-----------------------------')
@@ -15,6 +26,17 @@ function TreeNode(val, left, right) {
     this.right = (right===undefined ? null : right)
 }
 
+function runSeq() {
+    pending = true
+    const sum = seq.length
+    if (!sum) return
+    while(seq.length > 0) {
+       seq.shift()()
+    }
+    console.log(`共${sum}个case, 通过${sum - err}个`)
+    pending = false
+}
+
 module.exports = {
     /**
      * 
@@ -22,15 +44,14 @@ module.exports = {
      * @param {Array} args 
      * @param {any} expect 
      */
-    test: (fn, args, expect) => {
+    test: (fn, args, expect, showAll = false) => {
         if (!(args instanceof Array)) {
             args = [args]
         }
-        separator()
-        console.log('input  ->', args)
-        console.log('expect ->', expect)
-        timeLog('runtime', fn, args, expect)
-        separator()
+        seq.push(() => {timeLog('runtime', fn, args, expect, showAll)})
+        setTimeout(() => {
+            if (!pending) runSeq()
+        }, 100)
     },
     /**
      * 数组转换为二叉树
