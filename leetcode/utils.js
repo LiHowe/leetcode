@@ -26,6 +26,11 @@ function TreeNode(val, left, right) {
     this.right = (right===undefined ? null : right)
 }
 
+function ListNode(val) {
+    this.val = val;
+    this.next = null;
+}
+
 function runSeq() {
     pending = true
     const sum = seq.length
@@ -70,5 +75,21 @@ module.exports = {
             step++
         }
         return res
+    },
+    /**
+     * 数组转为链表
+     * @param {Array} arr 
+     * @returns {Array}
+     */
+    generateLinkedList: (arr) => {
+        if (!arr || !arr.length) return null
+        let start = 0
+        function loop() {
+            if (start === arr.length) return null
+            const node = new ListNode(arr[start])
+            node.next = loop(start + 1)
+            return node
+        }
+        return loop()
     }
 }
