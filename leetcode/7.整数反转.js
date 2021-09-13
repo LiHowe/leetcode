@@ -4,6 +4,8 @@
  * [7] 整数反转
  */
 
+const { test } = require('./utils')
+
 // @lc code=start
 /**
  * @param {number} x
@@ -22,3 +24,7 @@ var reverse = function(x) {
 };
 // @lc code=end
 
+test(reverse, [123], 321)
+test(reverse, [-123], -321)
+test(reverse, [120], 21)
+test(reverse, [0], 0)
