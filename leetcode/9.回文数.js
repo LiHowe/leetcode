@@ -11,12 +11,9 @@
  */
 var isPalindrome = function(x) {
     // 简单粗暴
-    // if (x < 0) return false
-    // let str = `${x}`.split('')
-    // return str.join('') === str.reverse().join('')
-
-    // TODO: 不用字符串解决
     if (x < 0) return false
+    let str = `${x}`.split('')
+    return str.join('') === str.reverse().join('')
 };
 // @lc code=end
 
