@@ -26,9 +26,9 @@ function TreeNode(val, left, right) {
     this.right = (right===undefined ? null : right)
 }
 
-function ListNode(val) {
-    this.val = val;
-    this.next = null;
+function ListNode(val, next) {
+   this.val = (val===undefined ? 0 : val)
+   this.next = (next===undefined ? null : next)
 }
 
 function runSeq() {
@@ -84,12 +84,11 @@ module.exports = {
     generateLinkedList: (arr) => {
         if (!arr || !arr.length) return null
         let start = 0
-        function loop() {
-            if (start === arr.length) return null
-            const node = new ListNode(arr[start])
-            node.next = loop(start + 1)
+        function loop(s) {
+            if (s === arr.length) return null
+            const node = new ListNode(arr[s], loop(s + 1))
             return node
         }
-        return loop()
+        return loop(start)
     }
 }
