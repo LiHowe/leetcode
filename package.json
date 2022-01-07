@@ -4,7 +4,9 @@
   "description": "leetcode 刷题之旅",
   "main": "index.js",
   "scripts": {
-    "test": "node ./leetcode"
+    "test": "node ./leetcode",
+    "gen": "node scripts/index.js",
+    "today": "node scripts/today.js"
   },
   "keywords": [
     "leetcode",
@@ -15,5 +17,8 @@
     "type": "git",
     "url": "https://github.com/LiHowe/leetcode.git"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0"
+  }
 }
