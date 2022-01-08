@@ -7,7 +7,7 @@ My LeetCode Repo.
 
 | 简单 | 中等 | 困难 |
 | --- | ---  | --- |
-| 21/**634** | 20/**1299** | 2/**507** |
+| 21/**634** | 21/**1298** | 2/**507** |
   
 
 ## Progress
@@ -102,7 +102,7 @@ My LeetCode Repo.
 | 86 | partition-list | ⭐️ Medium | 🕐 |
 | 87 | scramble-string | 💫 Hard | 🕐 |
 | 88 | merge-sorted-array | 🌟 Easy | 🕐 |
-| 89 | gray-code | ⭐️ Medium | 🕐 |
+| 89 | gray-code | ⭐️ Medium | ✅ |
 | 90 | subsets-ii | ⭐️ Medium | 🕐 |
 | 91 | decode-ways | ⭐️ Medium | 🕐 |
 | 92 | reverse-linked-list-ii | ⭐️ Medium | 🕐 |
