@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "node ./leetcode",
-    "gen": "node scripts/index.js",
-    "today": "node scripts/today.js"
+    "gen": "node scripts/index.mjs"
   },
   "keywords": [
     "leetcode",
@@ -19,6 +18,12 @@
   },
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.24.0"
+    "axios": "^0.24.0",
+    "chalk": "^5.0.0",
+    "commander": "^8.3.0",
+    "fs-extra": "^10.0.0",
+    "log-symbols": "^5.1.0",
+    "ora": "^6.0.1",
+    "prompts": "^2.4.2"
   }
 }

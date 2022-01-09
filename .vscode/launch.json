@@ -2,12 +2,13 @@
   "configurations": [
   {
     "name": "Launch Program",
-    "program": "${workspaceFolder}/scripts/index.js",
+    "program": "${workspaceFolder}/scripts/index.mjs",
     "request": "launch",
     "skipFiles": [
       "<node_internals>/**"
     ],
-    "type": "pwa-node"
+    "type": "pwa-node",
+    "args": ["g"]
   }
   ]
 }
