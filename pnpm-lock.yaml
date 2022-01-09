@@ -5,6 +5,7 @@ specifiers:
   chalk: ^5.0.0
   commander: ^8.3.0
   fs-extra: ^10.0.0
+  husky: ^7.0.4
   log-symbols: ^5.1.0
   ora: ^6.0.1
   prompts: ^2.4.2
@@ -17,6 +18,9 @@ dependencies:
   log-symbols: 5.1.0
   ora: 6.0.1
   prompts: 2.4.2
+
+devDependencies:
+  husky: 7.0.4
 
 packages:
 
@@ -120,6 +124,12 @@ packages:
     resolution: {integrity: sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==}
     engines: {node: '>=8'}
     dev: false
+
+  /husky/7.0.4:
+    resolution: {integrity: sha512-vbaCKN2QLtP/vD4yvs6iz6hBEo6wkSzs8HpRah1Z6aGmF2KW5PdYuAd7uX5a+OyBZHBhd+TFLqgjUgytQr4RvQ==}
+    engines: {node: '>=12'}
+    hasBin: true
+    dev: true
 
   /ieee754/1.2.1:
     resolution: {integrity: sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA==}

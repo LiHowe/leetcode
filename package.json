@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "node ./leetcode",
-    "gen": "node scripts/index.mjs"
+    "gen": "node scripts/index.mjs",
+    "prepare": "husky install"
   },
   "keywords": [
     "leetcode",
@@ -25,5 +26,8 @@
     "log-symbols": "^5.1.0",
     "ora": "^6.0.1",
     "prompts": "^2.4.2"
+  },
+  "devDependencies": {
+    "husky": "^7.0.4"
   }
 }
