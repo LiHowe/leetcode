@@ -4,13 +4,21 @@ import ora from 'ora'
 import prompts from 'prompts'
 import {
   genToday,
-  genExtra
-} from './today.mjs'
+  genExtra,
+  genAll,
+} from './handlers.mjs'
 
 import {
   getSummary,
   getAllQuestions,
 } from './api.mjs'
+
+import {
+  genDescription,
+  genHeader,
+  genRow,
+  genSummary
+} from './generator.mjs'
 
 program
   .command('generate')
@@ -18,20 +26,28 @@ program
   .description('生成题目文件')
   .option('-T --today', '今天题目', true)
   .option('-E --extra <questionId>', '具体题目, 提供题目编号', '')
-  .action(async ({ today, extra }) => {
-    let { exist, next, fileName } = today ? await genToday() : await genExtra(extra)
-    if (exist) {
-      const { go } = await prompts({
-        type: 'confirm',
-        name: 'go',
-        message: `文件 ${fileName} 已经存在, 是否覆盖?`,
-        initial: false
-      })
-      if (go) {
+  .option('-A --all', '生成全部题目')
+  .option('--force', '覆盖已有文件')
+  .action(async ({ today, extra, all, force }) => {
+    if (all) {
+      const o = ora().start('生成中...')
+      const { skipped, succeed, failed } = await genAll(force)
+      o.end(`生成完成! 成功: ${succeed}, 失败: ${failed}, 跳过: ${skipped}`)
+    } else {
+      let { exist, next, fileName } = today ? await genToday(force) : await genExtra(extra, force)
+      if (!force && exist) {
+        const { go } = await prompts({
+          type: 'confirm',
+          name: 'go',
+          message: `文件 ${fileName} 已经存在, 是否覆盖?`,
+          initial: false
+        })
+        if (go) {
+          await next()
+        }
+      } else {
         await next()
       }
-    } else {
-      await next()
     }
   })
 
@@ -40,12 +56,7 @@ program
   .alias('u')
   .description('生产README文件进度信息')
   .action(() => {
-    const {
-      genDescription,
-      genHeader,
-      genRow,
-      genSummary
-    } = require('./generator')
+
     ora('生成README中...').start()
     Promise.all([getAllQuestions(), getSummary()]).then(res => {
       const [questions, summary] = res

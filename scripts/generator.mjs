@@ -65,7 +65,7 @@ function genDashboard () {
 
 }
 
-module.exports = {
+export {
   genDescription,
   genSummary,
   genRow,

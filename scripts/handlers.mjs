@@ -2,12 +2,13 @@ import {
   getTodayQuestion,
   getQuestionDetail,
   getQuestions,
+  getAllQuestions
 } from './api.mjs'
 import ora from 'ora'
 import fs from 'fs-extra'
 import path from 'path'
 
-export async function genToday() {
+export async function genToday(force = false) {
   const arr = await getTodayQuestion()
   const {
     question,
@@ -35,6 +36,30 @@ export async function genExtra(id) {
   return await genQuestionFile(target)
 }
 
+export async function genAll(force = false) {
+  const questions = await getAllQuestions()
+  let skipped = 0, succeed = 0, failed = 0
+  for (let q of questions) {
+    try {
+      const { next, fileName, exist } = await genQuestionFile(q)
+      if (exist && force) {
+        await next()
+        succeed++
+      } else {
+        skipped++
+      }
+    } catch(e) {
+      failed++
+    }
+  }
+  return {
+    skipped,
+    failed,
+    succeed
+  }
+}
+
+
 export async function genQuestionFile(question) {
   const {
     titleSlug,
@@ -46,16 +71,16 @@ export async function genQuestionFile(question) {
 
   return {
     next: async () => {
-      const o = ora().start('Generating...')
+      const o = ora().start('生成中...')
       const detail = await getQuestionDetail(titleSlug)
       const { translatedContent, codeSnippets } = detail
       const targetSnippet = codeSnippets.find(s => s.langSlug === 'javascript')
       const template = `
-    /*
-    ${translatedContent.replaceAll(/\<\/?\w+\>/g, '')}
-    */
-    const { test } = require('./utils')
-    ${targetSnippet.code}
+/*
+${translatedContent.replaceAll(/\<\/?\w+\>/g, '')}
+*/
+const { test } = require('./utils')
+${targetSnippet.code}
       `.trim()
       fs.writeFileSync(fileName, template)
       o.succeed(`文件 ${fileName} 生成成功!`)
