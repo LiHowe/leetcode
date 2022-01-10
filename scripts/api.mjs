@@ -3,12 +3,6 @@ import { getSession } from './session.mjs'
 
 let sessionId = ''
 
-try {
-  sessionId = getSession('sessionId')
-} catch (e) {
-  throw new Error('Please run "login" first')
-}
-
 // cookie 中 LEETCODE_SESSION
 let csrftoken = ''
 
@@ -24,6 +18,17 @@ request.interceptors.response.use(res => {
   return res.data.data
 }, err => {
   console.error(err)
+})
+
+request.interceptors.request.use(conf => {
+  if (!sessionId) {
+    try {
+      sessionId = getSession('sessionId')
+    } catch (e) {
+      throw new Error('Please run "login" first')
+    }
+  }
+  return conf
 })
 
 

@@ -81,18 +81,15 @@ program
   .argument('<session>', 'LeetCode Cookie中的LEETCODE_SESSION')
   .action((session) => {
     try {
-      fs.writeFileSync('../.temp/session', session)
+      const res = {
+        sessionId: session
+      }
+      fs.mkdirSync('./.temp')
+      fs.writeFileSync('.temp/session.json', JSON.stringify(res))
       ora('登录成功!').succeed()
     } catch(e) {
-      throw new Error('Error:', e)
+      throw new Error(e)
     }
-  })
-
-program
-  .command('t')
-  .action(async () => {
-    const session = JSON.parse(fs.readFileSync('.temp/session.json', 'utf-8'))
-    console.log(session)
   })
 
 program.parseAsync()
