@@ -59,13 +59,31 @@ export async function genAll(force = false) {
   }
 }
 
+const htmlEscapeMap = {
+  '&': '&amp;',
+  '<': '&lt;',
+  '>': '&gt;',
+  "'": '&#39;',
+  '"': '&quot;',
+  '≤': '&le;',
+  '≥': '&ge;',
+  ' ': '&nbsp;'
+};
+const htmlEscapeReverseMap = Object.keys(htmlEscapeMap).reduce((init, c)=> {
+  init[htmlEscapeMap[c]] = c
+  return init
+}, {})
+const htmlEscapeRegexp = /&(amp|lt|gt|apos|quot|le|ge|nbsp);/g;
 
 export async function genQuestionFile(question) {
   const {
     titleSlug,
     questionId,
     frontendQuestionId,
-    titleCn
+    titleCn,
+    difficulty,
+    categoryTitle,
+    topicTags
   } = question
   const fileName = `.${path.sep}leetcode${path.sep}${frontendQuestionId}.${titleCn}.js`
 
@@ -77,8 +95,21 @@ export async function genQuestionFile(question) {
       const targetSnippet = codeSnippets.find(s => s.langSlug === 'javascript')
       const template = `
 /*
-${translatedContent.replaceAll(/\<\/?\w+\>/g, '')}
+序号: ${frontendQuestionId}
+名称: ${titleCn} | ${titleSlug}
+难度: ${difficulty}
+标签: ${topicTags.map(i => i.translatedName || i.nameTranslated).join(' | ')}
+链接: https://leetcode-cn.com/problems/${titleSlug}
+题解: https://leetcode-cn.com/problems/${titleSlug}/solution/
+
+${translatedContent
+  .replaceAll(/\<\/?\w+\>/g, '')
+  .replace(htmlEscapeRegexp, char => htmlEscapeReverseMap[char])
+  .replaceAll('\n \n', '')
+}
+
 */
+
 const { test } = require('./utils')
 ${targetSnippet.code}
       `.trim()
