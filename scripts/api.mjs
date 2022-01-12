@@ -103,3 +103,36 @@ export async function getTodayQuestion() {
     'todayRecord'
   )
 }
+
+
+export async function submit(question, code) {
+  const res = await request.post(
+    'https://leetcode-cn.com/problems/increasing-triplet-subsequence/submit/',
+    {
+      lang: "javascript",
+      questionSlug: question.titleSlug,
+      question_id: question.frontendQuestionId,
+      test_judger: "",
+      test_mode: false,
+      typed_code: code
+    }
+  )
+  return res.submission_id
+}
+
+export async function checkSubmit(submission_id) {
+  const req = async () => await request.get(
+    `https://leetcode-cn.com/submissions/detail/${submission_id}/check/`
+  )
+  let res = await req()
+  return new Promise(resolve => {
+    let times = 5
+    while (times && res.state !== 'SUCCESS') {
+      res = await req()
+      times--
+    }
+    if (res.state === 'SUCCESS') {
+      resolve(res)
+    }
+  })
+}
