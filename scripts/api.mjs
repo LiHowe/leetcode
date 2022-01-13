@@ -125,7 +125,7 @@ export async function checkSubmit(submission_id) {
     `https://leetcode-cn.com/submissions/detail/${submission_id}/check/`
   )
   let res = await req()
-  return new Promise(resolve => {
+  return new Promise(async resolve => {
     let times = 5
     while (times && res.state !== 'SUCCESS') {
       res = await req()
