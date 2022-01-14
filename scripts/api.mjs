@@ -52,6 +52,10 @@ export async function getUserInfo() {
   return res.userStatus
 }
 
+/**
+ * filters:
+ * status: 'AC' | 'TRIED' | 'NOT_STARTED'
+ */
 export async function getQuestions({start = 0, end = 100, filters = {}}) {
   return await req(
     {
@@ -135,4 +139,28 @@ export async function checkSubmit(submission_id) {
       resolve(res)
     }
   })
+}
+
+/**
+data item Example:
+date: "2022-01-13"
+question: {
+  questionFrontendId: "747"
+  title: "Largest Number At Least Twice of Others"
+  titleSlug: "largest-number-at-least-twice-of-others"
+  translatedTitle: "至少是其他数字两倍的最大数"
+}
+userStatus: "FINISH"
+ * 获取指定月份的提交记录
+ * @param {Number} year 
+ * @param {Number} month 
+ */
+export async function getMonthDailyRecords (year, month) {
+  await req(
+    {
+      query: "\n    query dailyQuestionRecords($year: Int!, $month: Int!) {\n  dailyQuestionRecords(year: $year, month: $month) {\n    date\n    userStatus\n    question {\n      questionFrontendId\n      title\n      titleSlug\n      translatedTitle\n    }\n  }\n}\n    ",
+      variables: { year, month }
+    },
+    'dailyQuestionRecords'
+  )
 }

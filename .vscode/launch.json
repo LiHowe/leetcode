@@ -17,7 +17,7 @@
         "<node_internals>/**"
       ],
       "type": "pwa-node",
-      "args": ["g"]
+      "args": ["test"]
     }
   ]
 }

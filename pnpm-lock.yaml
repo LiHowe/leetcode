@@ -5,6 +5,7 @@ specifiers:
   chalk: ^5.0.0
   commander: ^8.3.0
   fs-extra: ^10.0.0
+  graphql: ^16.2.0
   husky: ^7.0.4
   log-symbols: ^5.1.0
   ora: ^6.0.1
@@ -15,6 +16,7 @@ dependencies:
   chalk: 5.0.0
   commander: 8.3.0
   fs-extra: 10.0.0
+  graphql: registry.npmmirror.com/graphql/16.2.0
   log-symbols: 5.1.0
   ora: 6.0.1
   prompts: 2.4.2
@@ -154,7 +156,7 @@ packages:
     dependencies:
       universalify: 2.0.0
     optionalDependencies:
-      graceful-fs: 4.2.9
+      graceful-fs: registry.npmmirror.com/graceful-fs/4.2.9
     dev: false
 
   /kleur/3.0.3:
@@ -289,4 +291,18 @@ packages:
     peerDependenciesMeta:
       debug:
         optional: true
+    dev: false
+
+  registry.npmmirror.com/graceful-fs/4.2.9:
+    resolution: {integrity: sha512-NtNxqUcXgpW2iMrfqSfR73Glt39K+BLwWsPs94yR63v45T0Wbej7eRmL5cWfwEgqXnmjQp3zaJTshdRW/qC2ZQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/graceful-fs/download/graceful-fs-4.2.9.tgz}
+    name: graceful-fs
+    version: 4.2.9
+    dev: false
+    optional: true
+
+  registry.npmmirror.com/graphql/16.2.0:
+    resolution: {integrity: sha512-MuQd7XXrdOcmfwuLwC2jNvx0n3rxIuNYOxUtiee5XOmfrWo613ar2U8pE7aHAKh8VwfpifubpD9IP+EdEAEOsA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/graphql/download/graphql-16.2.0.tgz}
+    name: graphql
+    version: 16.2.0
+    engines: {node: ^12.22.0 || ^14.16.0 || >=16.0.0}
     dev: false

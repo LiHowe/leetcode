@@ -7,35 +7,35 @@ My LeetCode Repo.
 
 | 简单 | 中等 | 困难 |
 | --- | ---  | --- |
-| 22/**635** | 21/**1302** | 2/**509** |
+| 23/**634** | 22/**1302** | 2/**509** |
   
     
 ## Progress
 
 | 序号 | 名称 | 难度 | 状态 |
 | --- | --- | --- | --- |
-| 1 | two-sum | 🌟 Easy | ✅ |
-| 2 | add-two-numbers | ⭐️ Medium | ✅ |
-| 3 | longest-substring-without-repeating-characters | ⭐️ Medium | ✅ |
-| 4 | median-of-two-sorted-arrays | 💫 Hard | ✅ |
-| 5 | longest-palindromic-substring | ⭐️ Medium | ✅ |
+| 1 | two-sum | 🌟 Easy | 🕐 |
+| 2 | add-two-numbers | ⭐️ Medium | 🕐 |
+| 3 | longest-substring-without-repeating-characters | ⭐️ Medium | 🕐 |
+| 4 | median-of-two-sorted-arrays | 💫 Hard | 🕐 |
+| 5 | longest-palindromic-substring | ⭐️ Medium | 🕐 |
 | 6 | zigzag-conversion | ⭐️ Medium | 🕐 |
-| 7 | reverse-integer | ⭐️ Medium | ✅ |
+| 7 | reverse-integer | ⭐️ Medium | 🕐 |
 | 8 | string-to-integer-atoi | ⭐️ Medium | 🕐 |
-| 9 | palindrome-number | 🌟 Easy | ✅ |
+| 9 | palindrome-number | 🌟 Easy | 🕐 |
 | 10 | regular-expression-matching | 💫 Hard | 🕐 |
 | 11 | container-with-most-water | ⭐️ Medium | 🕐 |
-| 12 | integer-to-roman | ⭐️ Medium | ✅ |
+| 12 | integer-to-roman | ⭐️ Medium | 🕐 |
 | 13 | roman-to-integer | 🌟 Easy | 🕐 |
 | 14 | longest-common-prefix | 🌟 Easy | 🕐 |
-| 15 | 3sum | ⭐️ Medium | 🆖 |
+| 15 | 3sum | ⭐️ Medium | 🕐 |
 | 16 | 3sum-closest | ⭐️ Medium | 🕐 |
 | 17 | letter-combinations-of-a-phone-number | ⭐️ Medium | 🕐 |
 | 18 | 4sum | ⭐️ Medium | 🕐 |
 | 19 | remove-nth-node-from-end-of-list | ⭐️ Medium | 🕐 |
 | 20 | valid-parentheses | 🌟 Easy | 🕐 |
 | 21 | merge-two-sorted-lists | 🌟 Easy | 🕐 |
-| 22 | generate-parentheses | ⭐️ Medium | 🆖 |
+| 22 | generate-parentheses | ⭐️ Medium | 🕐 |
 | 23 | merge-k-sorted-lists | 💫 Hard | 🕐 |
 | 24 | swap-nodes-in-pairs | ⭐️ Medium | 🕐 |
 | 25 | reverse-nodes-in-k-group | 💫 Hard | 🕐 |
@@ -48,7 +48,7 @@ My LeetCode Repo.
 | 32 | longest-valid-parentheses | 💫 Hard | 🕐 |
 | 33 | search-in-rotated-sorted-array | ⭐️ Medium | 🕐 |
 | 34 | find-first-and-last-position-of-element-in-sorted-array | ⭐️ Medium | 🕐 |
-| 35 | search-insert-position | 🌟 Easy | ✅ |
+| 35 | search-insert-position | 🌟 Easy | 🕐 |
 | 36 | valid-sudoku | ⭐️ Medium | 🕐 |
 | 37 | sudoku-solver | 💫 Hard | 🕐 |
 | 38 | count-and-say | ⭐️ Medium | 🕐 |
@@ -66,10 +66,10 @@ My LeetCode Repo.
 | 50 | powx-n | ⭐️ Medium | 🕐 |
 | 51 | n-queens | 💫 Hard | 🕐 |
 | 52 | n-queens-ii | 💫 Hard | 🕐 |
-| 53 | maximum-subarray | 🌟 Easy | ✅ |
+| 53 | maximum-subarray | 🌟 Easy | 🕐 |
 | 54 | spiral-matrix | ⭐️ Medium | 🕐 |
 | 55 | jump-game | ⭐️ Medium | 🕐 |
-| 56 | merge-intervals | ⭐️ Medium | 🆖 |
+| 56 | merge-intervals | ⭐️ Medium | 🕐 |
 | 57 | insert-interval | ⭐️ Medium | 🕐 |
 | 58 | length-of-last-word | 🌟 Easy | 🕐 |
 | 59 | spiral-matrix-ii | ⭐️ Medium | 🕐 |
@@ -84,7 +84,7 @@ My LeetCode Repo.
 | 68 | text-justification | 💫 Hard | 🕐 |
 | 69 | sqrtx | 🌟 Easy | 🕐 |
 | 70 | climbing-stairs | 🌟 Easy | 🕐 |
-| 71 | simplify-path | ⭐️ Medium | ✅ |
+| 71 | simplify-path | ⭐️ Medium | 🕐 |
 | 72 | edit-distance | 💫 Hard | 🕐 |
 | 73 | set-matrix-zeroes | ⭐️ Medium | 🕐 |
 | 74 | search-a-2d-matrix | ⭐️ Medium | 🕐 |
@@ -102,7 +102,7 @@ My LeetCode Repo.
 | 86 | partition-list | ⭐️ Medium | 🕐 |
 | 87 | scramble-string | 💫 Hard | 🕐 |
 | 88 | merge-sorted-array | 🌟 Easy | 🕐 |
-| 89 | gray-code | ⭐️ Medium | ✅ |
+| 89 | gray-code | ⭐️ Medium | 🕐 |
 | 90 | subsets-ii | ⭐️ Medium | 🕐 |
 | 91 | decode-ways | ⭐️ Medium | 🕐 |
 | 92 | reverse-linked-list-ii | ⭐️ Medium | 🕐 |
@@ -175,10 +175,10 @@ My LeetCode Repo.
 | 159 | longest-substring-with-at-most-two-distinct-characters | ⭐️ Medium | 🕐 |
 | 160 | intersection-of-two-linked-lists | 🌟 Easy | 🕐 |
 | 161 | one-edit-distance | ⭐️ Medium | 🕐 |
-| 162 | find-peak-element | ⭐️ Medium | ✅ |
+| 162 | find-peak-element | ⭐️ Medium | 🕐 |
 | 163 | missing-ranges | 🌟 Easy | 🕐 |
 | 164 | maximum-gap | 💫 Hard | 🕐 |
-| 165 | compare-version-numbers | ⭐️ Medium | ✅ |
+| 165 | compare-version-numbers | ⭐️ Medium | 🕐 |
 | 166 | fraction-to-recurring-decimal | ⭐️ Medium | 🕐 |
 | 167 | two-sum-ii-input-array-is-sorted | 🌟 Easy | 🕐 |
 | 168 | excel-sheet-column-title | 🌟 Easy | 🕐 |
@@ -194,7 +194,7 @@ My LeetCode Repo.
 | 188 | best-time-to-buy-and-sell-stock-iv | 💫 Hard | 🕐 |
 | 189 | rotate-array | ⭐️ Medium | 🕐 |
 | 190 | reverse-bits | 🌟 Easy | 🕐 |
-| 191 | number-of-1-bits | 🌟 Easy | ✅ |
+| 191 | number-of-1-bits | 🌟 Easy | 🕐 |
 | 198 | house-robber | ⭐️ Medium | 🕐 |
 | 199 | binary-tree-right-side-view | ⭐️ Medium | 🕐 |
 | 200 | number-of-islands | ⭐️ Medium | 🕐 |
@@ -212,7 +212,7 @@ My LeetCode Repo.
 | 212 | word-search-ii | 💫 Hard | 🕐 |
 | 213 | house-robber-ii | ⭐️ Medium | 🕐 |
 | 214 | shortest-palindrome | 💫 Hard | 🕐 |
-| 215 | kth-largest-element-in-an-array | ⭐️ Medium | ✅ |
+| 215 | kth-largest-element-in-an-array | ⭐️ Medium | 🕐 |
 | 216 | combination-sum-iii | ⭐️ Medium | 🕐 |
 | 217 | contains-duplicate | 🌟 Easy | 🕐 |
 | 218 | the-skyline-problem | 💫 Hard | 🕐 |
@@ -288,7 +288,7 @@ My LeetCode Repo.
 | 289 | game-of-life | ⭐️ Medium | 🕐 |
 | 290 | word-pattern | 🌟 Easy | 🕐 |
 | 291 | word-pattern-ii | ⭐️ Medium | 🕐 |
-| 292 | nim-game | 🌟 Easy | ✅ |
+| 292 | nim-game | 🌟 Easy | 🕐 |
 | 293 | flip-game | 🌟 Easy | 🕐 |
 | 294 | flip-game-ii | ⭐️ Medium | 🕐 |
 | 295 | find-median-from-data-stream | 💫 Hard | 🕐 |
@@ -314,15 +314,15 @@ My LeetCode Repo.
 | 315 | count-of-smaller-numbers-after-self | 💫 Hard | 🕐 |
 | 316 | remove-duplicate-letters | ⭐️ Medium | 🕐 |
 | 317 | shortest-distance-from-all-buildings | 💫 Hard | 🕐 |
-| 318 | maximum-product-of-word-lengths | ⭐️ Medium | 🆖 |
+| 318 | maximum-product-of-word-lengths | ⭐️ Medium | 🕐 |
 | 319 | bulb-switcher | ⭐️ Medium | 🕐 |
 | 320 | generalized-abbreviation | ⭐️ Medium | 🕐 |
 | 321 | create-maximum-number | 💫 Hard | 🕐 |
-| 322 | coin-change | ⭐️ Medium | ✅ |
+| 322 | coin-change | ⭐️ Medium | 🕐 |
 | 323 | number-of-connected-components-in-an-undirected-graph | ⭐️ Medium | 🕐 |
 | 324 | wiggle-sort-ii | ⭐️ Medium | 🕐 |
 | 325 | maximum-size-subarray-sum-equals-k | ⭐️ Medium | 🕐 |
-| 326 | power-of-three | 🌟 Easy | ✅ |
+| 326 | power-of-three | 🌟 Easy | 🕐 |
 | 327 | count-of-range-sum | 💫 Hard | 🕐 |
 | 328 | odd-even-linked-list | ⭐️ Medium | 🕐 |
 | 329 | longest-increasing-path-in-a-matrix | 💫 Hard | 🕐 |
@@ -437,7 +437,7 @@ My LeetCode Repo.
 | 444 | sequence-reconstruction | ⭐️ Medium | 🕐 |
 | 445 | add-two-numbers-ii | ⭐️ Medium | 🕐 |
 | 446 | arithmetic-slices-ii-subsequence | 💫 Hard | 🕐 |
-| 447 | number-of-boomerangs | ⭐️ Medium | ✅ |
+| 447 | number-of-boomerangs | ⭐️ Medium | 🕐 |
 | 448 | find-all-numbers-disappeared-in-an-array | 🌟 Easy | 🕐 |
 | 449 | serialize-and-deserialize-bst | ⭐️ Medium | 🕐 |
 | 450 | delete-node-in-a-bst | ⭐️ Medium | 🕐 |
@@ -446,7 +446,7 @@ My LeetCode Repo.
 | 453 | minimum-moves-to-equal-array-elements | 🌟 Easy | 🕐 |
 | 454 | 4sum-ii | ⭐️ Medium | 🕐 |
 | 455 | assign-cookies | 🌟 Easy | 🕐 |
-| 456 | 132-pattern | ⭐️ Medium | 🆖 |
+| 456 | 132-pattern | ⭐️ Medium | 🕐 |
 | 457 | circular-array-loop | ⭐️ Medium | 🕐 |
 | 458 | poor-pigs | 💫 Hard | 🕐 |
 | 459 | repeated-substring-pattern | 🌟 Easy | 🕐 |
@@ -489,7 +489,7 @@ My LeetCode Repo.
 | 499 | the-maze-iii | 💫 Hard | 🕐 |
 | 500 | keyboard-row | 🌟 Easy | 🕐 |
 | 501 | find-mode-in-binary-search-tree | 🌟 Easy | 🕐 |
-| 502 | ipo | 💫 Hard | 🆖 |
+| 502 | ipo | 💫 Hard | 🕐 |
 | 503 | next-greater-element-ii | ⭐️ Medium | 🕐 |
 | 504 | base-7 | 🌟 Easy | 🕐 |
 | 505 | the-maze-ii | ⭐️ Medium | 🕐 |
@@ -511,7 +511,7 @@ My LeetCode Repo.
 | 521 | longest-uncommon-subsequence-i | 🌟 Easy | 🕐 |
 | 522 | longest-uncommon-subsequence-ii | ⭐️ Medium | 🕐 |
 | 523 | continuous-subarray-sum | ⭐️ Medium | 🕐 |
-| 524 | longest-word-in-dictionary-through-deleting | ⭐️ Medium | ✅ |
+| 524 | longest-word-in-dictionary-through-deleting | ⭐️ Medium | 🕐 |
 | 525 | contiguous-array | ⭐️ Medium | 🕐 |
 | 526 | beautiful-arrangement | ⭐️ Medium | 🕐 |
 | 527 | word-abbreviation | 💫 Hard | 🕐 |
@@ -537,7 +537,7 @@ My LeetCode Repo.
 | 548 | split-array-with-equal-sum | 💫 Hard | 🕐 |
 | 549 | binary-tree-longest-consecutive-sequence-ii | ⭐️ Medium | 🕐 |
 | 550 | shortest-path-to-get-food | ⭐️ Medium | 🕐 |
-| 551 | student-attendance-record-i | 🌟 Easy | ✅ |
+| 551 | student-attendance-record-i | 🌟 Easy | 🕐 |
 | 552 | student-attendance-record-ii | 💫 Hard | 🕐 |
 | 553 | optimal-division | ⭐️ Medium | 🕐 |
 | 554 | brick-wall | ⭐️ Medium | 🕐 |
@@ -643,7 +643,7 @@ My LeetCode Repo.
 | 689 | maximum-sum-of-3-non-overlapping-subarrays | 💫 Hard | 🕐 |
 | 690 | employee-importance | ⭐️ Medium | 🕐 |
 | 691 | stickers-to-spell-word | 💫 Hard | 🕐 |
-| 692 | top-k-frequent-words | ⭐️ Medium | ✅ |
+| 692 | top-k-frequent-words | ⭐️ Medium | 🕐 |
 | 693 | binary-number-with-alternating-bits | 🌟 Easy | 🕐 |
 | 694 | number-of-distinct-islands | ⭐️ Medium | 🕐 |
 | 695 | max-area-of-island | ⭐️ Medium | 🕐 |
@@ -664,8 +664,8 @@ My LeetCode Repo.
 | 721 | accounts-merge | ⭐️ Medium | 🕐 |
 | 722 | remove-comments | ⭐️ Medium | 🕐 |
 | 723 | candy-crush | ⭐️ Medium | 🕐 |
-| 724 | find-pivot-index | 🌟 Easy | ✅ |
-| 725 | split-linked-list-in-parts | ⭐️ Medium | ✅ |
+| 724 | find-pivot-index | 🌟 Easy | 🕐 |
+| 725 | split-linked-list-in-parts | ⭐️ Medium | 🕐 |
 | 726 | number-of-atoms | 💫 Hard | 🕐 |
 | 727 | minimum-window-subsequence | 💫 Hard | 🕐 |
 | 728 | self-dividing-numbers | 🌟 Easy | 🕐 |
@@ -732,7 +732,7 @@ My LeetCode Repo.
 | 789 | kth-largest-element-in-a-stream | 🌟 Easy | 🕐 |
 | 790 | global-and-local-inversions | ⭐️ Medium | 🕐 |
 | 791 | split-bst | ⭐️ Medium | 🕐 |
-| 792 | binary-search | 🌟 Easy | ✅ |
+| 792 | binary-search | 🌟 Easy | 🕐 |
 | 793 | swap-adjacent-in-lr-string | ⭐️ Medium | 🕐 |
 | 794 | swim-in-rising-water | 💫 Hard | 🕐 |
 | 795 | k-th-symbol-in-grammar | ⭐️ Medium | 🕐 |
@@ -837,7 +837,7 @@ My LeetCode Repo.
 | 901 | advantage-shuffle | ⭐️ Medium | 🕐 |
 | 902 | minimum-number-of-refueling-stops | 💫 Hard | 🕐 |
 | 903 | implement-rand10-using-rand7 | ⭐️ Medium | 🕐 |
-| 904 | leaf-similar-trees | 🌟 Easy | ✅ |
+| 904 | leaf-similar-trees | 🌟 Easy | 🕐 |
 | 905 | length-of-longest-fibonacci-subsequence | ⭐️ Medium | 🕐 |
 | 906 | walking-robot-simulation | ⭐️ Medium | 🕐 |
 | 907 | koko-eating-bananas | ⭐️ Medium | 🕐 |
@@ -850,7 +850,7 @@ My LeetCode Repo.
 | 914 | random-point-in-non-overlapping-rectangles | ⭐️ Medium | 🕐 |
 | 915 | generate-random-point-in-a-circle | ⭐️ Medium | 🕐 |
 | 916 | decoded-string-at-index | ⭐️ Medium | 🕐 |
-| 917 | boats-to-save-people | ⭐️ Medium | 🆖 |
+| 917 | boats-to-save-people | ⭐️ Medium | 🕐 |
 | 918 | reachable-nodes-in-subdivided-graph | 💫 Hard | 🕐 |
 | 919 | projection-area-of-3d-shapes | 🌟 Easy | 🕐 |
 | 920 | uncommon-words-from-two-sentences | 🌟 Easy | 🕐 |
@@ -963,7 +963,7 @@ My LeetCode Repo.
 | 1032 | satisfiability-of-equality-equations | ⭐️ Medium | 🕐 |
 | 1033 | broken-calculator | ⭐️ Medium | 🕐 |
 | 1034 | subarrays-with-k-different-integers | 💫 Hard | 🕐 |
-| 1035 | cousins-in-binary-tree | 🌟 Easy | ✅ |
+| 1035 | cousins-in-binary-tree | 🌟 Easy | 🕐 |
 | 1036 | rotting-oranges | ⭐️ Medium | 🕐 |
 | 1037 | minimum-number-of-k-consecutive-bit-flips | 💫 Hard | 🕐 |
 | 1038 | number-of-squareful-arrays | 💫 Hard | 🕐 |
@@ -976,7 +976,7 @@ My LeetCode Repo.
 | 1045 | check-if-word-is-valid-after-substitutions | ⭐️ Medium | 🕐 |
 | 1046 | max-consecutive-ones-iii | ⭐️ Medium | 🕐 |
 | 1047 | maximize-sum-of-array-after-k-negations | 🌟 Easy | 🕐 |
-| 1048 | clumsy-factorial | ⭐️ Medium | 🆖 |
+| 1048 | clumsy-factorial | ⭐️ Medium | 🕐 |
 | 1049 | minimum-domino-rotations-for-equal-row | ⭐️ Medium | 🕐 |
 | 1050 | construct-binary-search-tree-from-preorder-traversal | ⭐️ Medium | 🕐 |
 | 1051 | shortest-way-to-form-string | ⭐️ Medium | 🕐 |
@@ -1033,7 +1033,7 @@ My LeetCode Repo.
 | 1102 | check-if-a-number-is-majority-element-in-a-sorted-array | 🌟 Easy | 🕐 |
 | 1103 | moving-stones-until-consecutive | ⭐️ Medium | 🕐 |
 | 1104 | coloring-a-border | ⭐️ Medium | 🕐 |
-| 1105 | uncrossed-lines | ⭐️ Medium | 🆖 |
+| 1105 | uncrossed-lines | ⭐️ Medium | 🕐 |
 | 1106 | escape-a-large-maze | 💫 Hard | 🕐 |
 | 1107 | minimum-swaps-to-group-all-1s-together | ⭐️ Medium | 🕐 |
 | 1108 | analyze-user-website-visit-pattern | ⭐️ Medium | 🕐 |
@@ -1110,7 +1110,7 @@ My LeetCode Repo.
 | 1201 | delete-tree-nodes | ⭐️ Medium | 🕐 |
 | 1202 | palindrome-removal | 💫 Hard | 🕐 |
 | 1205 | defanging-an-ip-address | 🌟 Easy | 🕐 |
-| 1206 | corporate-flight-bookings | ⭐️ Medium | ✅ |
+| 1206 | corporate-flight-bookings | ⭐️ Medium | 🕐 |
 | 1207 | delete-nodes-and-return-forest | ⭐️ Medium | 🕐 |
 | 1208 | maximum-nesting-depth-of-two-valid-parentheses-strings | ⭐️ Medium | 🕐 |
 | 1210 | mean-of-array-after-removing-some-elements | 🌟 Easy | 🕐 |
@@ -1209,7 +1209,7 @@ My LeetCode Repo.
 | 1332 | count-vowels-permutation | 💫 Hard | 🕐 |
 | 1336 | maximum-product-of-the-length-of-two-palindromic-substrings | 💫 Hard | 🕐 |
 | 1337 | design-skiplist | 💫 Hard | 🕐 |
-| 1341 | split-a-string-in-balanced-strings | 🌟 Easy | ✅ |
+| 1341 | split-a-string-in-balanced-strings | 🌟 Easy | 🕐 |
 | 1342 | queens-that-can-attack-the-king | ⭐️ Medium | 🕐 |
 | 1343 | dice-roll-simulation | 💫 Hard | 🕐 |
 | 1344 | maximum-equal-frequency | 💫 Hard | 🕐 |
@@ -1244,7 +1244,7 @@ My LeetCode Repo.
 | 1395 | minimum-time-visiting-all-points | 🌟 Easy | 🕐 |
 | 1396 | count-servers-that-communicate | ⭐️ Medium | 🕐 |
 | 1397 | search-suggestions-system | ⭐️ Medium | 🕐 |
-| 1398 | number-of-ways-to-stay-in-the-same-place-after-some-steps | 💫 Hard | ✅ |
+| 1398 | number-of-ways-to-stay-in-the-same-place-after-some-steps | 💫 Hard | 🕐 |
 | 1400 | find-winner-on-a-tic-tac-toe-game | 🌟 Easy | 🕐 |
 | 1401 | number-of-burgers-with-no-waste-of-ingredients | ⭐️ Medium | 🕐 |
 | 1402 | count-square-submatrices-with-all-ones | ⭐️ Medium | 🕐 |
@@ -1267,7 +1267,7 @@ My LeetCode Repo.
 | 1429 | verbal-arithmetic-puzzle | 💫 Hard | 🕐 |
 | 1432 | check-if-a-string-is-a-valid-sequence-from-root-to-leaves-path-in-a-binary-tree | ⭐️ Medium | 🕐 |
 | 1434 | decrypt-string-from-alphabet-to-integer-mapping | 🌟 Easy | 🕐 |
-| 1435 | xor-queries-of-a-subarray | ⭐️ Medium | ✅ |
+| 1435 | xor-queries-of-a-subarray | ⭐️ Medium | 🕐 |
 | 1436 | get-watched-videos-by-your-friends | ⭐️ Medium | 🕐 |
 | 1437 | minimum-insertion-steps-to-make-a-string-palindrome | 💫 Hard | 🕐 |
 | 1440 | convert-integer-to-the-sum-of-two-no-zero-integers | 🌟 Easy | 🕐 |
@@ -1364,7 +1364,7 @@ My LeetCode Repo.
 | 1549 | longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit | ⭐️ Medium | 🕐 |
 | 1550 | find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows | 💫 Hard | 🕐 |
 | 1552 | build-an-array-with-stack-operations | 🌟 Easy | 🕐 |
-| 1553 | count-triplets-that-can-form-two-arrays-of-equal-xor | ⭐️ Medium | ✅ |
+| 1553 | count-triplets-that-can-form-two-arrays-of-equal-xor | ⭐️ Medium | 🕐 |
 | 1554 | minimum-time-to-collect-all-apples-in-a-tree | ⭐️ Medium | 🕐 |
 | 1555 | number-of-ways-of-cutting-a-pizza | 💫 Hard | 🕐 |
 | 1556 | make-two-arrays-equal-by-reversing-sub-arrays | 🌟 Easy | 🕐 |
@@ -1475,7 +1475,7 @@ My LeetCode Repo.
 | 1695 | maximum-sum-obtained-of-any-permutation | ⭐️ Medium | 🕐 |
 | 1696 | strange-printer-ii | 💫 Hard | 🕐 |
 | 1697 | strings-differ-by-one-character | ⭐️ Medium | 🕐 |
-| 1698 | replace-all-s-to-avoid-consecutive-repeating-characters | 🌟 Easy | ✅ |
+| 1698 | replace-all-s-to-avoid-consecutive-repeating-characters | 🌟 Easy | 🕐 |
 | 1699 | number-of-ways-where-square-of-number-is-equal-to-product-of-two-numbers | ⭐️ Medium | 🕐 |
 | 1700 | minimum-time-to-make-rope-colorful | ⭐️ Medium | 🕐 |
 | 1701 | remove-max-number-of-edges-to-keep-graph-fully-traversable | 💫 Hard | 🕐 |
@@ -1484,7 +1484,7 @@ My LeetCode Repo.
 | 1705 | count-unhappy-friends | ⭐️ Medium | 🕐 |
 | 1706 | min-cost-to-connect-all-points | ⭐️ Medium | 🕐 |
 | 1707 | check-if-string-is-transformable-with-substring-sort-operations | 💫 Hard | 🕐 |
-| 1708 | design-parking-system | 🌟 Easy | ✅ |
+| 1708 | design-parking-system | 🌟 Easy | 🕐 |
 | 1709 | alert-using-same-key-card-three-or-more-times-in-a-one-hour-period | ⭐️ Medium | 🕐 |
 | 1710 | find-servers-that-handled-most-number-of-requests | 💫 Hard | 🕐 |
 | 1711 | find-valid-matrix-given-row-and-column-sums | ⭐️ Medium | 🕐 |
@@ -1521,7 +1521,7 @@ My LeetCode Repo.
 | 1747 | lexicographically-smallest-string-after-applying-operations | ⭐️ Medium | 🕐 |
 | 1748 | best-team-with-no-conflicts | ⭐️ Medium | 🕐 |
 | 1750 | check-if-two-expression-trees-are-equivalent | ⭐️ Medium | 🕐 |
-| 1751 | slowest-key | 🌟 Easy | ✅ |
+| 1751 | slowest-key | 🌟 Easy | 🕐 |
 | 1752 | arithmetic-subarrays | ⭐️ Medium | 🕐 |
 | 1753 | path-with-minimum-effort | ⭐️ Medium | 🕐 |
 | 1755 | defuse-the-bomb | 🌟 Easy | 🕐 |
@@ -1609,7 +1609,7 @@ My LeetCode Repo.
 | 1851 | maximum-number-of-events-that-can-be-attended-ii | 💫 Hard | 🕐 |
 | 1858 | latest-time-by-replacing-hidden-digits | 🌟 Easy | 🕐 |
 | 1859 | change-minimum-characters-to-satisfy-one-of-three-conditions | ⭐️ Medium | 🕐 |
-| 1860 | find-kth-largest-xor-coordinate-value | ⭐️ Medium | ✅ |
+| 1860 | find-kth-largest-xor-coordinate-value | ⭐️ Medium | 🕐 |
 | 1861 | building-boxes | 💫 Hard | 🕐 |
 | 1865 | checking-existence-of-edge-length-limited-paths-ii | 💫 Hard | 🕐 |
 | 1866 | restore-the-array-from-adjacent-pairs | ⭐️ Medium | 🕐 |
@@ -1728,7 +1728,7 @@ My LeetCode Repo.
 | 2002 | stone-game-viii | 💫 Hard | 🕐 |
 | 2003 | distinct-numbers-in-each-subarray | ⭐️ Medium | 🕐 |
 | 2005 | check-if-all-the-integers-in-a-range-are-covered | 🌟 Easy | 🕐 |
-| 2006 | find-the-student-that-will-replace-the-chalk | ⭐️ Medium | ✅ |
+| 2006 | find-the-student-that-will-replace-the-chalk | ⭐️ Medium | 🕐 |
 | 2008 | minimum-cost-to-change-the-final-value-of-expression | 💫 Hard | 🕐 |
 | 2009 | longest-word-with-all-prefixes | ⭐️ Medium | 🕐 |
 | 2010 | check-if-word-equals-summation-of-two-words | 🌟 Easy | 🕐 |
@@ -1947,6 +1947,7 @@ My LeetCode Repo.
 | 2258 | elements-in-array-after-removing-and-replacing-elements | ⭐️ Medium | 🕐 |
 | 2259 | minimum-operations-to-remove-adjacent-ones-in-matrix | 💫 Hard | 🕐 |
 | 2268 | remove-all-ones-with-row-and-column-flips | ⭐️ Medium | 🕐 |
+| 2273 | pour-water-between-buckets-to-make-water-levels-equal | ⭐️ Medium | 🕐 |
 | 100092 | deep-dark-fraction | 🌟 Easy | 🕐 |
 | 100093 | broken-board-dominoes | 💫 Hard | 🕐 |
 | 100094 | coin-bonus | 💫 Hard | 🕐 |
@@ -2280,7 +2281,7 @@ My LeetCode Repo.
 | 1000018 | english-int-lcci | 💫 Hard | 🕐 |
 | 1000019 | binode-lcci | 🌟 Easy | 🕐 |
 | 1000020 | re-space-lcci | ⭐️ Medium | 🕐 |
-| 1000021 | smallest-k-lcci | ⭐️ Medium | ✅ |
+| 1000021 | smallest-k-lcci | ⭐️ Medium | 🕐 |
 | 1000022 | longest-word-lcci | ⭐️ Medium | 🕐 |
 | 1000023 | the-masseuse-lcci | 🌟 Easy | 🕐 |
 | 1000024 | multi-search-lcci | ⭐️ Medium | 🕐 |
@@ -2311,16 +2312,16 @@ My LeetCode Repo.
 | 1000049 | word-rectangle-lcci | 💫 Hard | 🕐 |
 | 1000050 | langtons-ant-lcci | ⭐️ Medium | 🕐 |
 | 1000051 | sparse-similarity-lcci | 💫 Hard | 🕐 |
-| 100273 | yong-liang-ge-zhan-shi-xian-dui-lie-lcof | 🌟 Easy | ✅ |
+| 100273 | yong-liang-ge-zhan-shi-xian-dui-lie-lcof | 🌟 Easy | 🕐 |
 | 100274 | fei-bo-na-qi-shu-lie-lcof | 🌟 Easy | 🕐 |
 | 100275 | shu-zu-zhong-zhong-fu-de-shu-zi-lcof | 🌟 Easy | 🕐 |
 | 100276 | er-wei-shu-zu-zhong-de-cha-zhao-lcof | ⭐️ Medium | 🕐 |
 | 100277 | qing-wa-tiao-tai-jie-wen-ti-lcof | 🌟 Easy | 🕐 |
 | 100278 | xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof | 🌟 Easy | 🕐 |
 | 100279 | ju-zhen-zhong-de-lu-jing-lcof | ⭐️ Medium | 🕐 |
-| 100280 | ti-huan-kong-ge-lcof | 🌟 Easy | ✅ |
+| 100280 | ti-huan-kong-ge-lcof | 🌟 Easy | 🕐 |
 | 100281 | ji-qi-ren-de-yun-dong-fan-wei-lcof | ⭐️ Medium | 🕐 |
-| 100282 | cong-wei-dao-tou-da-yin-lian-biao-lcof | 🌟 Easy | ✅ |
+| 100282 | cong-wei-dao-tou-da-yin-lian-biao-lcof | 🌟 Easy | 🕐 |
 | 100283 | zhong-jian-er-cha-shu-lcof | ⭐️ Medium | 🕐 |
 | 100284 | jian-sheng-zi-lcof | ⭐️ Medium | 🕐 |
 | 100285 | jian-sheng-zi-ii-lcof | ⭐️ Medium | 🕐 |
@@ -2332,7 +2333,7 @@ My LeetCode Repo.
 | 100291 | diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof | 🌟 Easy | 🕐 |
 | 100292 | er-jin-zhi-zhong-1de-ge-shu-lcof | 🌟 Easy | 🕐 |
 | 100293 | shun-shi-zhen-da-yin-ju-zhen-lcof | 🌟 Easy | 🕐 |
-| 100294 | lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof | 🌟 Easy | ✅ |
+| 100294 | lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof | 🌟 Easy | 🕐 |
 | 100295 | shu-zhi-de-zheng-shu-ci-fang-lcof | ⭐️ Medium | 🕐 |
 | 100296 | da-yin-cong-1dao-zui-da-de-nwei-shu-lcof | 🌟 Easy | 🕐 |
 | 100297 | zheng-ze-biao-da-shi-pi-pei-lcof | 💫 Hard | 🕐 |
@@ -2340,7 +2341,7 @@ My LeetCode Repo.
 | 100299 | shan-chu-lian-biao-de-jie-dian-lcof | 🌟 Easy | 🕐 |
 | 100300 | fu-za-lian-biao-de-fu-zhi-lcof | ⭐️ Medium | 🕐 |
 | 100301 | zui-xiao-de-kge-shu-lcof | 🌟 Easy | 🕐 |
-| 100302 | bao-han-minhan-shu-de-zhan-lcof | 🌟 Easy | ✅ |
+| 100302 | bao-han-minhan-shu-de-zhan-lcof | 🌟 Easy | 🕐 |
 | 100303 | shu-ju-liu-zhong-de-zhong-wei-shu-lcof | 💫 Hard | 🕐 |
 | 100304 | lian-xu-zi-shu-zu-de-zui-da-he-lcof | 🌟 Easy | 🕐 |
 | 100305 | er-cha-sou-suo-shu-yu-shuang-xiang-lian-biao-lcof | ⭐️ Medium | 🕐 |
@@ -2368,7 +2369,7 @@ My LeetCode Repo.
 | 100327 | li-wu-de-zui-da-jie-zhi-lcof | ⭐️ Medium | 🕐 |
 | 100328 | fan-zhuan-dan-ci-shun-xu-lcof | 🌟 Easy | 🕐 |
 | 100329 | zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof | 🌟 Easy | 🕐 |
-| 100330 | zuo-xuan-zhuan-zi-fu-chuan-lcof | 🌟 Easy | ✅ |
+| 100330 | zuo-xuan-zhuan-zi-fu-chuan-lcof | 🌟 Easy | 🕐 |
 | 100331 | que-shi-de-shu-zi-lcof | 🌟 Easy | 🕐 |
 | 100332 | zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof | ⭐️ Medium | 🕐 |
 | 100333 | er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof | 🌟 Easy | 🕐 |

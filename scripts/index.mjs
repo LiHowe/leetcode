@@ -6,6 +6,7 @@ import {
   genToday,
   genExtra,
   genAll,
+  getPassedQuestions
 } from './handlers.mjs'
 
 import {
@@ -57,7 +58,7 @@ program
   .description('生产README文件进度信息')
   .action(() => {
 
-    ora('生成README中...').start()
+    const state = ora().start('生成README中...')
     Promise.all([getAllQuestions(), getSummary()]).then(res => {
       const [questions, summary] = res
       const str = `
@@ -69,7 +70,7 @@ program
         if (err) {
           console.error(err)
         }
-        ora('生成成功!').succeed()
+        state.succeed('生成成功!')
       })
     })
   })
@@ -90,6 +91,13 @@ program
     } catch(e) {
       throw new Error(e)
     }
+  })
+
+program
+  .command('test')
+  .action(async () => {
+    const res = await getPassedQuestions()
+    debugger
   })
 
 program.parseAsync()

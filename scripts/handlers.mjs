@@ -8,6 +8,22 @@ import ora from 'ora'
 import fs from 'fs-extra'
 import path from 'path'
 
+const QuestionType = {
+  AC: 'AC',
+  TRIED: 'TRIED',
+  NOT_STARTED: 'NOT_STARTED'
+}
+
+export async function getPassedQuestions (start = 0, end = 100, arr = []) {
+  arr = arr || []
+  let res
+  do {
+    res = await getQuestions({ start, end, filters: { status: QuestionType.AC }})
+    arr.push(res.questions)
+  } while (res.hasMore)
+  return arr
+}
+
 export async function genToday(force = false) {
   const arr = await getTodayQuestion()
   const {
