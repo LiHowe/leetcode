@@ -1,15 +1,19 @@
-
+import { resolve } from 'path'
+import { getTempFilePath } from './generator/utils.mjs'
 import fs from 'fs-extra'
 
 let temp = null
 
 export function getSession(key) {
-  let fileContent = ''
-  try {
-    fileContent = fs.readFileSync('.temp/session.json', 'utf-8')
-  } catch (e) {
-    console.error('Session File Not Exist!')
+  if (!temp) {
+    let fileContent = ''
+    try {
+      fileContent = fs.readFileSync(getTempFilePath('session.json'), 'utf-8')
+    } catch (e) {
+      console.error('\n Session File Not Exist! Please run Login first.')
+      process.exit(1)
+    }
+    temp = JSON.parse(fileContent)
   }
-  const res = temp || (temp = JSON.parse(fileContent))
-  return key ? res[key] : res
+  return key ? temp[key] : temp
 }
