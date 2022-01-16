@@ -1,6 +1,6 @@
 import { getAllQuestions } from '../service/api.mjs'
 import { QuestionStatus } from './utils.mjs'
-
+import dayjs from 'dayjs'
 /**
  * questionFrontendId: '1',
  translatedTitle: '两数之和',
@@ -61,6 +61,7 @@ function genDescription() {
 # LeetCode 
 
 My LeetCode Repo.
+Auto Generate at ${dayjs().format('YYYY-MM-DD(ddd) HH:mm:ss')}
   `
 }
 

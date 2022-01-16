@@ -1,4 +1,5 @@
 import path from 'path'
+import fs from 'fs-extra'
 
 export const QuestionType = {
   AC: 'AC',
@@ -40,4 +41,23 @@ export function getTempFilePath(fileName) {
 
 export function getRootPath(...args) {
   return path.resolve(process.cwd(), ...args)
+}
+
+export const TempFiles = {
+  Session: 'session.json',
+  Question: 'question.json'
+}
+
+export function writeTempFile(fileName, fileContent) {
+  const filePath = getTempFilePath(fileName)
+  if (!filePath) return
+  if (!fs.existsSync(filePath)) {
+    fs.createFileSync(filePath)
+  }
+  try {
+    fs.writeFileSync(filePath, fileContent)
+    return filePath
+  } catch (e) {
+    return ''
+  }
 }

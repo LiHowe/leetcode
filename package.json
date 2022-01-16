@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "node ./leetcode",
-    "gen": "node scripts/index.mjs u",
+    "gen": "node scripts/index.mjs",
     "prepare": "husky install"
   },
   "keywords": [
