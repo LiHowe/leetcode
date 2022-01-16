@@ -1,7 +1,7 @@
 # LeetCode 
 
 My LeetCode Repo.
-Auto Generate at 2022-01-16(Sun) 19:29:05
+Auto Generate at 2022-01-16(Sun) 19:30:28
   
     
 ## Summary
