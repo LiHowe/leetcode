@@ -27,7 +27,7 @@ const htmlEscapeReverseMap = Object.keys(htmlEscapeMap).reduce((init, c)=> {
   init[htmlEscapeMap[c]] = c
   return init
 }, {})
-const htmlEscapeRegexp = /&(amp|lt|gt|apos|quot|le|ge|nbsp);/g;
+const htmlEscapeRegexp = /&(amp|lt|gt|apos|quot|le|ge|nbsp|#39);/g;
 
 String.prototype.escapeString = escapeString
 

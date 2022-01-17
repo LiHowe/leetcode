@@ -1,6 +1,8 @@
 import ora from 'ora'
 import { getQuestionDetail, getQuestions, getTodayQuestion } from '../service/api.mjs'
 import fs from 'fs-extra'
+import path from 'path'
+import { escapeString } from './utils.mjs'
 
 export async function genQuestionFile(question) {
   const {
@@ -29,16 +31,19 @@ export async function genQuestionFile(question) {
 链接: https://leetcode-cn.com/problems/${titleSlug}
 题解: https://leetcode-cn.com/problems/${titleSlug}/solution/
 
-${translatedContent
-      .replaceAll(/\<\/?\w+\>/g, '')
-      .replace(htmlEscapeRegexp, char => htmlEscapeReverseMap[char])
-      .replaceAll('\n \n', '')
-      }
+${escapeString(
+  translatedContent
+    .replaceAll(/\<\/?\w+\>/g, '')
+    .replaceAll('\n \n', '')
+  )
+}
 
 */
 
 const { test } = require('./utils')
+// lc-start
 ${targetSnippet.code}
+// lc-end
       `.trim()
       fs.writeFileSync(fileName, template)
       o.succeed(`文件 ${fileName} 生成成功!`)
@@ -46,7 +51,6 @@ ${targetSnippet.code}
     exist: fs.existsSync(fileName),
     fileName
   }
-
 }
 
 /**
