@@ -3,31 +3,35 @@ import { getQuestionDetail, getQuestions, getTodayQuestion } from '../service/ap
 import fs from 'fs-extra'
 import path from 'path'
 import { escapeString } from './utils.mjs'
+import { getQuestionList } from '../service/index.mjs'
 
 export async function genQuestionFile(question) {
   const {
     titleSlug,
     questionId,
     frontendQuestionId,
+    questionFrontendId,
     titleCn,
+    title,
+    translatedTitle,
     difficulty,
     categoryTitle,
     topicTags
   } = question
-  const fileName = `.${path.sep}leetcode${path.sep}${frontendQuestionId}.${titleCn}.js`
+  const fileName = `.${path.sep}leetcode${path.sep}${frontendQuestionId ?? questionFrontendId}.${titleCn ?? translatedTitle}.js`
 
   return {
     next: async () => {
       const o = ora().start('生成中...')
       const detail = await getQuestionDetail(titleSlug)
-      const { translatedContent, codeSnippets } = detail
+      const { translatedContent, codeSnippets = [] } = detail
       const targetSnippet = codeSnippets.find(s => s.langSlug === 'javascript')
       const template = `
 /*
 序号: ${frontendQuestionId}
 名称: ${titleCn} | ${titleSlug}
 难度: ${difficulty}
-标签: ${topicTags.map(i => i.translatedName || i.nameTranslated).join(' | ')}
+标签: ${topicTags ? topicTags.map(i => i.translatedName || i.nameTranslated).join(' | ') : '无'}
 链接: https://leetcode-cn.com/problems/${titleSlug}
 题解: https://leetcode-cn.com/problems/${titleSlug}/solution/
 
@@ -62,16 +66,16 @@ export async function genExact(id) {
     ora('请提供题目ID!').fail()
     return
   }
-  const questionResult = await getQuestions({ filter: { searchKeywords: titleOrId } })
-  const target = questionResult.find(q => q.frontendQuestionId == titleOrId)
+  const questionResult = await getQuestionList()
+  const target = questionResult.find(q => q.questionFrontendId === id || q.questionId === id)
   if (!target) {
-    ora.error(`${titleOrId} 未找到!`)
-    return Promise.reject(`${titleOrId} 未找到!`)
+    ora.error(`${id} 未找到!`)
+    return Promise.reject(`${id} 未找到!`)
   }
   return await genQuestionFile(target)
 }
 
-export async function genToday(force = false) {
+export async function genToday() {
   const arr = await getTodayQuestion()
   const {
     question,

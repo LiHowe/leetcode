@@ -3,6 +3,7 @@ import fs from 'fs-extra'
 import ora from 'ora'
 import prompts from 'prompts'
 import { getTempFilePath, TempFiles } from './generator/utils.mjs'
+import { getNotStartedQuestions } from './service/index.mjs'
 
 export function handleUpdateProgress () {
   genRootFile()
@@ -23,19 +24,28 @@ export function handleSessionLogin (session) {
   }
 }
 
+async function getRandomQuestionId(difficulty) {
+  const arr = await getNotStartedQuestions(q => {
+    return q.difficulty.toLowerCase() === difficulty.toLowerCase()
+  })
+  const idx = Math.floor(Math.random() * arr.length)
+  return arr[idx].questionId
+}
+
 
 export async function handleGenerate({
   today,
   exact,
   all,
-  force
+  force,
+  random,
 }) {
   if (all) {
     await handleGenerateAllQuestion()
   } else {
     let { exist, next, fileName } = today
-      ? await genToday(force)
-      : await genExact(exact, force)
+      ? await genToday()
+      : await genExact(exact || await getRandomQuestionId(random))
     if (!force && exist) {
       const { go } = await prompts({
         type: 'confirm',

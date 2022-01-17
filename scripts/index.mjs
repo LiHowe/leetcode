@@ -4,14 +4,14 @@ import {
   handleSessionLogin,
   handleUpdateProgress,
 } from './handler.mjs'
-import { getPassedQuestions } from './service/index.mjs'
 
 program
   .command('generate')
   .alias('g')
   .description('生成题目文件')
-  .option('-T --today', '今天题目', true)
+  .option('-T --today', '今天题目', false)
   .option('-E --exact <questionId>', '具体题目, 提供题目编号', '')
+  .option('-R --random [difficulty]', '随便儿来一道, 默认简单(easy), 支持: easy | medium | hard', 'easy')
   .option('-A --all', '生成全部题目')
   .option('--force', '覆盖已有文件')
   .action(handleGenerate)
@@ -29,15 +29,4 @@ program
   .argument('<session>', 'LeetCode-CN Cookie中的LEETCODE_SESSION')
   .action(handleSessionLogin)
 
-program
-  .command('test')
-  .action(async () => {
-    const arr = await getPassedQuestions()
-    console.log(arr)
-  })
-
 program.parseAsync()
-
-{
-
-}
