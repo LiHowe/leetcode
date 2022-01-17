@@ -2,7 +2,7 @@ import { genExact, genRootFile, genToday } from './generator/index.mjs'
 import fs from 'fs-extra'
 import ora from 'ora'
 import prompts from 'prompts'
-import { resolve } from 'path'
+import { getTempFilePath, TempFiles } from './generator/utils.mjs'
 
 export function handleUpdateProgress () {
   genRootFile()
@@ -13,10 +13,10 @@ export function handleSessionLogin (session) {
     const res = {
       sessionId: session
     }
-    const tempPath = resolve('', '../.temp')
+    const tempPath = getTempFilePath(TempFiles.Session)
     const exist = fs.existsSync(tempPath)
-    !exist && fs.mkdirSync('./.temp')
-    fs.writeFileSync(resolve('', './session.json'), JSON.stringify(res, null, 2))
+    !exist && fs.mkdirSync(getTempFilePath())
+    fs.writeFileSync(getTempFilePath(TempFiles.Session), JSON.stringify(res, null, 2))
     ora('登录成功!').succeed()
   } catch(e) {
     throw new Error(e)

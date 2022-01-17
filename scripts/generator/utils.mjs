@@ -35,7 +35,7 @@ export function escapeString (str) {
   return str.replace(htmlEscapeRegexp, char => htmlEscapeReverseMap[char])
 }
 
-export function getTempFilePath(fileName) {
+export function getTempFilePath(fileName = '') {
   return path.resolve(process.cwd(), '.temp/', fileName)
 }
 
