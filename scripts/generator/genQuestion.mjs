@@ -7,33 +7,47 @@ import { getQuestionList } from '../service/index.mjs'
 
 export async function genQuestionFile(question) {
   const {
-    titleSlug,
-    questionId,
-    frontendQuestionId,
     questionFrontendId,
-    titleCn,
-    title,
+    questionId,
+    titleSlug,
     translatedTitle,
-    difficulty,
-    categoryTitle,
     topicTags
   } = question
-  const fileName = `.${path.sep}leetcode${path.sep}${frontendQuestionId ?? questionFrontendId}.${titleCn ?? translatedTitle}.js`
+  const fileName = `.${path.sep}leetcode${path.sep}${questionFrontendId}.${translatedTitle}.js`
 
   return {
     next: async () => {
       const o = ora().start('生成中...')
       const detail = await getQuestionDetail(titleSlug)
-      const { translatedContent, codeSnippets = [] } = detail
+      const { 
+        translatedContent,
+        codeSnippets = [],
+        categoryTitle,
+        exampleTestcases,
+        likes,
+        difficulty,
+        questionFrontendId,
+        sampleTestCase,
+        stats,
+        title,
+        translatedTitle,
+        topicTags,
+        metaData,
+      } = detail
       const targetSnippet = codeSnippets.find(s => s.langSlug === 'javascript')
+      const statsObj = JSON.parse(stats)
+      // const { name: fnName, params } = JSON.parse(metaData)
       const template = `
 /*
-序号: ${frontendQuestionId}
-名称: ${titleCn} | ${titleSlug}
+序号: ${questionFrontendId}
+名称: ${translatedTitle} | ${title}
 难度: ${difficulty}
-标签: ${topicTags ? topicTags.map(i => i.translatedName || i.nameTranslated).join(' | ') : '无'}
+标签: ${topicTags ? topicTags.map(i => i.translatedName).join(' | ') : '无'}
 链接: https://leetcode-cn.com/problems/${titleSlug}
 题解: https://leetcode-cn.com/problems/${titleSlug}/solution/
+
+| 通过数量 | 总提交数 | 通过率 |
+| ${statsObj.totalAccepted} | ${statsObj.totalSubmission} | ${statsObj.acRate} |
 
 ${escapeString(
   translatedContent
@@ -49,7 +63,7 @@ const { test } = require('./utils')
 ${targetSnippet.code}
 // lc-end
       `.trim()
-      fs.writeFileSync(fileName, template)
+      fs.writeFileSync(fileName, template, { encoding: 'utf-8' })
       o.succeed(`文件 ${fileName} 生成成功!`)
     },
     exist: fs.existsSync(fileName),
