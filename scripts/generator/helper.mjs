@@ -41,9 +41,9 @@ function genSummary(summary) {
   return genTitle(2, 'Summary')
   + genTableHeader([diffEmoji.Easy, diffEmoji.Medium, diffEmoji.Hard])
   + genTableRowByArr([
-      `${p[0].count}/${genBold(f[0].count + n[0].count)}`,
-      `${p[1].count}/${genBold(f[1].count + n[1].count)}`,
-      `${p[2].count}/${genBold(f[2].count + n[2].count)}`
+      `${p[0].count}/${genBold(p[0].count + f[0].count + n[0].count)}`,
+      `${p[1].count}/${genBold(p[1].count + f[1].count + n[1].count)}`,
+      `${p[2].count}/${genBold(p[2].count + f[2].count + n[2].count)}`
     ])
 }
 
