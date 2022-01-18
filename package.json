@@ -5,8 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "node ./leetcode",
-    "gen": "node scripts/index.mjs",
-    "prepare": "husky install"
+    "gen:T": "node scripts/index.mjs -T",
+    "gen:R": "node scripts/index.mjs -R",
+    "prepare": "husky install",
+    "u": "node scripts/index.mjs u"
   },
   "keywords": [
     "leetcode",
@@ -30,7 +32,7 @@
   },
   "devDependencies": {
     "@types/fs-extra": "^9.0.13",
-    "@types/node": "^17.0.8",
+    "@types/node": "^17.0.9",
     "dayjs": "^1.10.7",
     "husky": "^7.0.4"
   }

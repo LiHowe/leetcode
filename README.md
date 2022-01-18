@@ -2,13 +2,13 @@
 
 My LeetCode Repo.
 
-Update time: 2022-01-17(Mon) 16:45:20
+Update time: 2022-01-18(Tue) 10:49:13
   
 ## Summary
 
 | 🤩 简单 | 🤔 一般 | 🤯 困难 |
 | --- | --- | --- |
-| 24/** 634 ** | 22/** 1305 ** | 3/** 509 ** |
+| 24/** 634 ** | 23/** 1304 ** | 3/** 509 ** |
 
 ## Progress
 
@@ -525,7 +525,7 @@ Update time: 2022-01-17(Mon) 16:45:20
 | 536 | Construct Binary Tree from String | 🤔 一般 | 🕐 |
 | 537 | Complex Number Multiplication | 🤔 一般 | 🕐 |
 | 538 | Convert BST to Greater Tree | 🤔 一般 | 🕐 |
-| 539 | Minimum Time Difference | 🤔 一般 | 🕐 |
+| 539 | Minimum Time Difference | 🤔 一般 | ✅ |
 | 540 | Single Element in a Sorted Array | 🤔 一般 | 🕐 |
 | 541 | Reverse String II | 🤩 简单 | 🕐 |
 | 542 | 01 Matrix | 🤔 一般 | 🕐 |
