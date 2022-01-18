@@ -19,7 +19,7 @@ export async function genQuestionFile(question) {
     next: async () => {
       const o = ora().start('生成中...')
       const detail = await getQuestionDetail(titleSlug)
-      const { 
+      const {
         translatedContent,
         codeSnippets = [],
         categoryTitle,
@@ -96,5 +96,14 @@ export async function genToday() {
     userStatus,
     lastSubmission
   } = arr[0]
-  return await genQuestionFile(question)
+  const {
+    titleSlug,
+    frontendQuestionId: questionFrontendId,
+    titleCn: translatedTitle
+  } = question
+  return await genQuestionFile({
+    titleSlug,
+    questionFrontendId,
+    translatedTitle
+  })
 }

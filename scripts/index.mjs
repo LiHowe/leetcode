@@ -3,6 +3,7 @@ import {
   handleGenerate,
   handleSessionLogin,
   handleUpdateProgress,
+  handleClean,
 } from './handler.mjs'
 
 program
@@ -15,6 +16,11 @@ program
   .option('-A --all', '生成全部题目')
   .option('--force', '覆盖已有文件')
   .action(handleGenerate)
+
+program
+  .command('clean')
+  .description('清除无用(空题目文件)')
+  .action(handleClean)
 
 program
   .command('update-progress')

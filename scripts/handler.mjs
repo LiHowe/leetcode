@@ -1,7 +1,9 @@
-import { genExact, genRootFile, genToday } from './generator/index.mjs'
 import fs from 'fs-extra'
 import ora from 'ora'
 import prompts from 'prompts'
+import path from 'path'
+
+import { genExact, genRootFile, genToday } from './generator/index.mjs'
 import { getTempFilePath, TempFiles } from './generator/utils.mjs'
 import { getNotStartedQuestions } from './service/index.mjs'
 
@@ -67,4 +69,18 @@ async function handleGenerateAllQuestion() {
   // const o = ora().start('生成中...')
   // const { skipped, succeed, failed } = await genAll(force)
   // o.end(`生成完成! 成功: ${succeed}, 失败: ${failed}, 跳过: ${skipped}`)
+}
+
+
+/**
+ * TODO: 清理空白题目文件
+ */
+export async function handleClean() {
+  const folder = path.resolve(process.cwd(), './leetcode')
+  const dirs = fs.readdirSync(folder)
+  for (let file of dirs) {
+    const content = fs.readFileSync(path.resolve(folder, file), 'utf-8')
+    console.log(content)
+  }
+  console.log(dirs)
 }
