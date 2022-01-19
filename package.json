@@ -5,10 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "node ./leetcode",
-    "gen:T": "node scripts/index.mjs -T",
-    "gen:R": "node scripts/index.mjs -R",
-    "prepare": "husky install",
-    "u": "node scripts/index.mjs u"
+    "script": "node scripts/index.mjs",
+    "prepare": "husky install"
   },
   "keywords": [
     "leetcode",

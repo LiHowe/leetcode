@@ -17,6 +17,7 @@ program
   .option('--force', '覆盖已有文件')
   .action(handleGenerate)
 
+// WIP
 program
   .command('clean')
   .description('清除无用(空题目文件)')

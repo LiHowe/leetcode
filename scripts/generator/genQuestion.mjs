@@ -4,8 +4,10 @@ import fs from 'fs-extra'
 import path from 'path'
 import { escapeString } from './utils.mjs'
 import { getQuestionList } from '../service/index.mjs'
+import dayjs from 'dayjs'
 
 export async function genQuestionFile(question) {
+  const tag = process.env.LC_CONFIG
   const {
     questionFrontendId,
     questionId,
@@ -39,6 +41,7 @@ export async function genQuestionFile(question) {
       // const { name: fnName, params } = JSON.parse(metaData)
       const template = `
 /*
+${tag} ${dayjs().format('YYYY-MM-DD HH:mm:ss')}
 序号: ${questionFrontendId}
 名称: ${translatedTitle} | ${title}
 难度: ${difficulty}
@@ -59,9 +62,9 @@ ${escapeString(
 */
 
 const { test } = require('./utils')
-// lc-start
+// ${tag} code-start
 ${targetSnippet.code}
-// lc-end
+// ${tag} code-end
       `.trim()
       fs.writeFileSync(fileName, template, { encoding: 'utf-8' })
       o.succeed(`文件 ${fileName} 生成成功!`)
