@@ -2,13 +2,13 @@
 
 My LeetCode Repo.
 
-Update time: 2022-01-19(Wed) 00:27:09
+Update time: 2022-01-20(Thu) 13:36:11
   
 ## Summary
 
 | 🤩 简单 | 🤔 一般 | 🤯 困难 |
 | --- | --- | --- |
-| 25/** 658 ** | 23/** 1327 ** | 3/** 512 ** |
+| 26/** 658 ** | 24/** 1327 ** | 3/** 513 ** |
 
 ## Progress
 
@@ -132,7 +132,7 @@ Update time: 2022-01-19(Wed) 00:27:09
 | 116 | Populating Next Right Pointers in Each Node | 🤔 一般 | 🕐 |
 | 117 | Populating Next Right Pointers in Each Node II | 🤔 一般 | 🕐 |
 | 118 | Pascal's Triangle | 🤩 简单 | 🕐 |
-| 119 | Pascal's Triangle II | 🤩 简单 | 🕐 |
+| 119 | Pascal's Triangle II | 🤩 简单 | ✅ |
 | 120 | Triangle | 🤔 一般 | 🕐 |
 | 121 | Best Time to Buy and Sell Stock | 🤩 简单 | 🕐 |
 | 122 | Best Time to Buy and Sell Stock II | 🤔 一般 | 🕐 |
@@ -1187,7 +1187,7 @@ Update time: 2022-01-19(Wed) 00:27:09
 | 1191 | K-Concatenation Maximum Sum | 🤔 一般 | 🕐 |
 | 1192 | Critical Connections in a Network | 🤯 困难 | 🕐 |
 | 1957 | Delete Characters to Make Fancy String | 🤩 简单 | 🕐 |
-| 5194 | Minimum Moves to Reach Target Score | 🤔 一般 | 🕐 |
+| 2139 | Minimum Moves to Reach Target Score | 🤔 一般 | 🕐 |
 | 1405 | Longest Happy String | 🤔 一般 | 🕐 |
 | 1944 | Number of Visible People in a Queue | 🤯 困难 | 🕐 |
 | 1200 | Minimum Absolute Difference | 🤩 简单 | 🕐 |
@@ -1858,7 +1858,7 @@ Update time: 2022-01-19(Wed) 00:27:09
 | 2005 | Subtree Removal Game with Fibonacci Tree | 🤯 困难 | 🕐 |
 | 2027 | Minimum Moves to Convert String | 🤩 简单 | 🕐 |
 | 2028 | Find Missing Observations | 🤔 一般 | 🕐 |
-| 2029 | Stone Game IX | 🤔 一般 | 🕐 |
+| 2029 | Stone Game IX | 🤔 一般 | ✅ |
 | 2030 | Smallest K-Length Subsequence With Occurrences of a Letter | 🤯 困难 | 🕐 |
 | 2032 | Two Out of Three | 🤩 简单 | 🕐 |
 | 2033 | Minimum Operations to Make a Uni-Value Grid | 🤔 一般 | 🕐 |
@@ -1947,9 +1947,9 @@ Update time: 2022-01-19(Wed) 00:27:09
 | 2136 | Earliest Possible Day of Full Bloom | 🤯 困难 | 🕐 |
 | 2113 | Elements in Array After Removing and Replacing Elements | 🤔 一般 | 🕐 |
 | 2123 | Minimum Operations to Remove Adjacent Ones in Matrix | 🤯 困难 | 🕐 |
-| 5980 | Divide a String Into Groups of Size k | 🤩 简单 | 🕐 |
-| 5982 | Solving Questions With Brainpower | 🤔 一般 | 🕐 |
-| 5983 | Maximum Running Time of N Computers | 🤯 困难 | 🕐 |
+| 2138 | Divide a String Into Groups of Size k | 🤩 简单 | 🕐 |
+| 2140 | Solving Questions With Brainpower | 🤔 一般 | 🕐 |
+| 2141 | Maximum Running Time of N Computers | 🤯 困难 | 🕐 |
 | 2128 | Remove All Ones With Row and Column Flips | 🤔 一般 | 🕐 |
 | 2137 | Pour Water Between Buckets to Make Water Levels Equal | 🤔 一般 | 🕐 |
 | LCP 02 | Deep Dark Fraction | 🤩 简单 | 🕐 |
@@ -2194,6 +2194,7 @@ Update time: 2022-01-19(Wed) 00:27:09
 | 2084 | Drop Type 1 Orders for Customers With Type 0 Orders | 🤔 一般 | 🕐 |
 | 2112 | The Airport With the Most Traffic | 🤔 一般 | 🕐 |
 | 2118 | Build the Equation | 🤯 困难 | 🕐 |
+| 2142 | The Number of Passengers in Each Bus I | 🤔 一般 | 🕐 |
 | 192 | Word Frequency | 🤔 一般 | 🕐 |
 | 193 | Valid Phone Numbers | 🤩 简单 | 🕐 |
 | 194 | Transpose File | 🤔 一般 | 🕐 |
@@ -2285,7 +2286,7 @@ Update time: 2022-01-19(Wed) 00:27:09
 | 面试题 16.08 | English Int LCCI | 🤯 困难 | 🕐 |
 | 面试题 17.12 | BiNode LCCI | 🤩 简单 | 🕐 |
 | 面试题 17.13 | Re-Space LCCI | 🤔 一般 | 🕐 |
-| 面试题 17.14 | Smallest K LCCI | 🤔 一般 | 🕐 |
+| 面试题 17.14 | Smallest K LCCI | 🤔 一般 | ✅ |
 | 面试题 17.15 | Longest Word LCCI | 🤔 一般 | ✅ |
 | 面试题 17.16 | The Masseuse LCCI | 🤩 简单 | 🕐 |
 | 面试题 17.17 | Multi Search LCCI | 🤔 一般 | 🕐 |
@@ -2316,16 +2317,16 @@ Update time: 2022-01-19(Wed) 00:27:09
 | 面试题 17.25 | Word Rectangle LCCI | 🤯 困难 | 🕐 |
 | 面试题 16.22 | Langtons Ant LCCI | 🤔 一般 | 🕐 |
 | 面试题 17.26 | Sparse Similarity LCCI | 🤯 困难 | 🕐 |
-| 剑指 Offer 09 | 用两个栈实现队列 LCOF | 🤩 简单 | 🕐 |
+| 剑指 Offer 09 | 用两个栈实现队列 LCOF | 🤩 简单 | ✅ |
 | 剑指 Offer 10- I | 斐波那契数列  LCOF | 🤩 简单 | ✅ |
 | 剑指 Offer 03 | 数组中重复的数字 LCOF | 🤩 简单 | 🕐 |
 | 剑指 Offer 04 | 二维数组中的查找 LCOF | 🤔 一般 | 🕐 |
 | 剑指 Offer 10- II | 青蛙跳台阶问题  LCOF | 🤩 简单 | 🕐 |
 | 剑指 Offer 11 | 旋转数组的最小数字  LCOF | 🤩 简单 | 🕐 |
 | 剑指 Offer 12 | 矩阵中的路径  LCOF | 🤔 一般 | 🕐 |
-| 剑指 Offer 05 | 替换空格 LCOF | 🤩 简单 | 🕐 |
+| 剑指 Offer 05 | 替换空格 LCOF | 🤩 简单 | ✅ |
 | 剑指 Offer 13 | 机器人的运动范围  LCOF | 🤔 一般 | ✅ |
-| 剑指 Offer 06 | 从尾到头打印链表 LCOF | 🤩 简单 | 🕐 |
+| 剑指 Offer 06 | 从尾到头打印链表 LCOF | 🤩 简单 | ✅ |
 | 剑指 Offer 07 | 重建二叉树 LCOF | 🤔 一般 | ✅ |
 | 剑指 Offer 14- I | 剪绳子  LCOF | 🤔 一般 | 🕐 |
 | 剑指 Offer 14- II | 剪绳子 II LCOF | 🤔 一般 | 🕐 |
@@ -2337,7 +2338,7 @@ Update time: 2022-01-19(Wed) 00:27:09
 | 剑指 Offer 21 | 调整数组顺序使奇数位于偶数前面 LCOF | 🤩 简单 | 🕐 |
 | 剑指 Offer 15 | 二进制中1的个数 LCOF | 🤩 简单 | 🕐 |
 | 剑指 Offer 29 | 顺时针打印矩阵  LCOF | 🤩 简单 | 🕐 |
-| 剑指 Offer 22 | 链表中倒数第k个节点 LCOF | 🤩 简单 | 🕐 |
+| 剑指 Offer 22 | 链表中倒数第k个节点 LCOF | 🤩 简单 | ✅ |
 | 剑指 Offer 16 | 数值的整数次方 LCOF | 🤔 一般 | ✅ |
 | 剑指 Offer 17 | 打印从1到最大的n位数 LCOF | 🤩 简单 | 🕐 |
 | 剑指 Offer 19 | 正则表达式匹配 LCOF | 🤯 困难 | 🕐 |
@@ -2345,7 +2346,7 @@ Update time: 2022-01-19(Wed) 00:27:09
 | 剑指 Offer 18 | 删除链表的节点 LCOF | 🤩 简单 | 🕐 |
 | 剑指 Offer 35 | 复杂链表的复制  LCOF | 🤔 一般 | 🕐 |
 | 剑指 Offer 40 | 最小的k个数  LCOF | 🤩 简单 | 🕐 |
-| 剑指 Offer 30 | 包含min函数的栈 LCOF | 🤩 简单 | 🕐 |
+| 剑指 Offer 30 | 包含min函数的栈 LCOF | 🤩 简单 | ✅ |
 | 剑指 Offer 41 | 数据流中的中位数  LCOF | 🤯 困难 | ✅ |
 | 剑指 Offer 42 | 连续子数组的最大和  LCOF | 🤩 简单 | 🕐 |
 | 剑指 Offer 36 | 二叉搜索树与双向链表  LCOF | 🤔 一般 | 🕐 |
@@ -2373,7 +2374,7 @@ Update time: 2022-01-19(Wed) 00:27:09
 | 剑指 Offer 47 | 礼物的最大价值 LCOF | 🤔 一般 | 🕐 |
 | 剑指 Offer 58 - I | 翻转单词顺序 LCOF | 🤩 简单 | 🕐 |
 | 剑指 Offer 53 - I | 在排序数组中查找数字  LCOF | 🤩 简单 | 🕐 |
-| 剑指 Offer 58 - II | 左旋转字符串 LCOF | 🤩 简单 | 🕐 |
+| 剑指 Offer 58 - II | 左旋转字符串 LCOF | 🤩 简单 | ✅ |
 | 剑指 Offer 53 - II | 缺失的数字  LCOF | 🤩 简单 | ✅ |
 | 剑指 Offer 48 | 最长不含重复字符的子字符串 LCOF | 🤔 一般 | 🕐 |
 | 剑指 Offer 54 | 二叉搜索树的第k大节点  LCOF | 🤩 简单 | 🕐 |

@@ -1,4 +1,4 @@
-import { QUESTION_STATUS } from '../variables.mjs'
+import { QUESTION_STATUS_1 } from '../variables.mjs'
 import dayjs from 'dayjs'
 import {
   genBold,
@@ -14,15 +14,15 @@ const diffEmoji = {
 }
 
 const stateEmoji = {
-  [QUESTION_STATUS.AC]: '✅',
-  [QUESTION_STATUS.TRIED]: '🆖',
-  [QUESTION_STATUS.NOT_STARTED]: '🕐',
+  [QUESTION_STATUS_1.AC]: '✅',
+  [QUESTION_STATUS_1.TRIED]: '🆖',
+  [QUESTION_STATUS_1.NOT_STARTED]: '🕐',
 }
 
 function genRow (arr = [], statusArr = []) {
   return arr.map((q, i) => {
     const { questionId, questionFrontendId, title, translatedTitle, difficulty } = q
-    const status = statusArr[i].status
+    const status = arr[i].status || statusArr[i].status
     return genTableRowByArr([questionFrontendId, title, diffEmoji[difficulty], stateEmoji[status]])
   }).join('')
 }
