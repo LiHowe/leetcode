@@ -2,12 +2,13 @@ import ora from 'ora'
 import { getQuestionDetail, getQuestions, getTodayQuestion } from '../service/api.mjs'
 import fs from 'fs-extra'
 import path from 'path'
-import { escapeString } from './utils.mjs'
+import { escapeString } from '../utils.mjs'
 import { getQuestionList } from '../service/index.mjs'
 import dayjs from 'dayjs'
+import { getConfig } from '../configuration.mjs'
 
 export async function genQuestionFile(question) {
-  const tag = process.env.LC_CONFIG
+  const tag = getConfig('tag')
   const {
     questionFrontendId,
     questionId,

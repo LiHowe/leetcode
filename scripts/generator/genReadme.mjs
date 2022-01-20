@@ -1,8 +1,8 @@
 import ora from 'ora'
 import fs from 'fs-extra'
-import { getAllQuestions, getAllQuestionStatus, getSummary } from '../service/api.mjs'
+import { getAllQuestionStatus, getSummary } from '../service/api.mjs'
 import { genDescription, genHeader, genRow, genSummary } from './helper.mjs'
-import { getRootPath, getTempFilePath, TempFiles, writeTempFile } from './utils.mjs'
+import { getRootPath } from '../utils.mjs'
 import { getQuestionList } from '../service/index.mjs'
 
 export function genRootFile () {

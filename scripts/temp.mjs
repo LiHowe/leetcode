@@ -27,13 +27,17 @@ function setTemp(file, key, value) {
   } else {
     target[key] = Object.assign(target[key], value)
   }
+  writeToTemp(file, toJSON(target))
+}
+
+function writeToTemp(file, value) {
   const filePath = getTempFilePath(file)
   try {
     if (!fs.existsSync(filePath)) {
       fs.createFileSync(filePath)
     }
-    fs.writeFileSync(getTempFilePath(file), toJSON(target))
-    tempObjCache.set(file, target)
+    fs.writeFileSync(getTempFilePath(file), value)
+    tempObjCache.set(file, value)
   } catch (e) {
 
   }
@@ -63,5 +67,6 @@ function getTemp(file, key= '') {
 export {
   TEMP_FILE_MAPPING,
   setTemp,
-  getTemp
+  getTemp,
+  writeToTemp
 }

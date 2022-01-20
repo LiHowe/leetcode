@@ -4,7 +4,8 @@ import { getRootPath } from './utils.mjs'
 const configFileName = 'lc-config.json'
 
 const basicConfig = () => ({
-
+  root: './leetcode',
+  tag: '@h'
 })
 
 let config = basicConfig()

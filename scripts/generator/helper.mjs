@@ -1,4 +1,4 @@
-import { QuestionStatus } from './utils.mjs'
+import { QUESTION_STATUS } from '../variables.mjs'
 import dayjs from 'dayjs'
 import {
   genBold,
@@ -14,9 +14,9 @@ const diffEmoji = {
 }
 
 const stateEmoji = {
-  [QuestionStatus.AC]: '✅',
-  [QuestionStatus.TRIED]: '🆖',
-  [QuestionStatus.NOT_STARTED]: '🕐',
+  [QUESTION_STATUS.AC]: '✅',
+  [QUESTION_STATUS.TRIED]: '🆖',
+  [QUESTION_STATUS.NOT_STARTED]: '🕐',
 }
 
 function genRow (arr = [], statusArr = []) {
