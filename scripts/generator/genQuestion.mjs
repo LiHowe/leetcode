@@ -1,20 +1,19 @@
 import ora from 'ora'
-import { getQuestionDetail, getQuestions, getTodayQuestion } from '../service/api.mjs'
 import fs from 'fs-extra'
 import path from 'path'
+import dayjs from 'dayjs'
+
+import { getQuestionDetail, getTodayQuestion } from '../service/api.mjs'
 import { escapeString } from '../utils.mjs'
 import { getQuestionList } from '../service/index.mjs'
-import dayjs from 'dayjs'
 import { getConfig } from '../configuration.mjs'
 
 export async function genQuestionFile(question) {
   const tag = getConfig('tag')
   const {
     questionFrontendId,
-    questionId,
     titleSlug,
     translatedTitle,
-    topicTags
   } = question
   const fileName = `.${path.sep}leetcode${path.sep}${questionFrontendId}.${translatedTitle}.js`
 
@@ -25,21 +24,15 @@ export async function genQuestionFile(question) {
       const {
         translatedContent,
         codeSnippets = [],
-        categoryTitle,
-        exampleTestcases,
-        likes,
         difficulty,
         questionFrontendId,
-        sampleTestCase,
         stats,
         title,
         translatedTitle,
         topicTags,
-        metaData,
       } = detail
       const targetSnippet = codeSnippets.find(s => s.langSlug === 'javascript')
       const statsObj = JSON.parse(stats)
-      // const { name: fnName, params } = JSON.parse(metaData)
       const template = `
 /*
 ${tag} ${dayjs().format('YYYY-MM-DD HH:mm:ss')}
@@ -97,8 +90,6 @@ export async function genToday() {
   const arr = await getTodayQuestion()
   const {
     question,
-    userStatus,
-    lastSubmission
   } = arr[0]
   const {
     titleSlug,

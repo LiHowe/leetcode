@@ -1,7 +1,6 @@
-import { getAllQuestions, getQuestions } from './api.mjs'
-import fs from 'fs-extra'
+import { getAllQuestions } from './api.mjs'
 import { writeToTemp, TEMP_FILE_MAPPING, getTemp } from '../temp.mjs'
-import { QUESTION_STATUS } from '../variables.mjs'
+import { QUESTION_STATUS_1 } from '../variables.mjs'
 
 export async function getQuestionList() {
   const cache = getTemp(TEMP_FILE_MAPPING.Question)
@@ -14,10 +13,10 @@ export async function getQuestionList() {
 
 export async function getPassedQuestions () {
   const questions = await getQuestionList()
-  return questions.filter(q => q.status === QUESTION_STATUS.AC)
+  return questions.filter(q => q.status === QUESTION_STATUS_1.AC)
 }
 
 export async function getNotStartedQuestions (filter) {
   const questions = await getQuestionList()
-  return questions.filter(q => q.status === QUESTION_STATUS.NOT_STARTED && filter(q))
+  return questions.filter(q => q.status === QUESTION_STATUS_1.NOT_STARTED && !q.isPaidOnly && filter(q))
 }

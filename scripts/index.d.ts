@@ -127,3 +127,73 @@ export interface VideoInfo {
   coverUrl: string
   duration: number
 }
+
+export type QuestionDifficulty = 'Easy' | 'Medium' | 'Hard'
+
+export type QuestionStatus = 'AC' | 'TRIED' | 'NOT_START'
+
+export interface TopicTag {
+  name: string
+  slug: string
+  translatedName: string
+}
+
+export interface CodeSnippet {
+  lang: string
+  langSlug: string
+  code: string
+}
+
+export interface BookNode {
+  id: string
+  bookName: string
+  pressName: string
+  source: string
+  shortDescription: string
+  fullDescription: string
+  bookImgUrl: string
+  pressImgUrl: string
+  productUrl: string
+}
+
+export interface Question {
+  questionId: string
+  questionFrontendId: string
+  categoryTitle: string
+  boundTopicId: number
+  title: string
+  titleSlug: string
+  content: string
+  translatedTitle: string
+  translatedContent: string
+  isPaidOnly: boolean // 是否是plus专享
+  likes: number
+  dislikes: number
+  isLikes: boolean | null
+  difficulty: QuestionDifficulty
+  similarQuestions: string[] // 相似题目
+  contributors: string[]
+  langToValidPlayground: any
+  topicTags: TopicTag[],
+  companyTagStats?: string[]
+  codeSnippets?: CodeSnippet[]
+  stats: string // 通过率等
+  hints: string[] // 提示(英文)
+  solution?: any
+  status?: any
+  sampleTestCase: string // 测试用例
+  metaData: string
+  judgerAvailable: boolean
+  judgeType: string
+  mysqlSchemas: string[]
+  enableRunCode: boolean
+  envInfo: string
+  book?: BookNode[]
+  isSubscribed: boolean
+  isDailyQuestion: boolean
+  dailyRecordStatus: QuestionStatus
+  editorType: string
+  ugcQuestionId?: string
+  style: string
+  exampleTestcases: string // 例子测试用例
+}

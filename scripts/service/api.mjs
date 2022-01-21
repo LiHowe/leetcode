@@ -167,6 +167,11 @@ export async function getAllQuestionStatus() {
   )
 }
 
+/**
+ * 获取问题详情
+ * @param title
+ * @return {Promise<Question>}
+ */
 export async function getQuestionDetail(title) {
   return await req(
     {
