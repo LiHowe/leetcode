@@ -2,13 +2,13 @@
 
 My LeetCode Repo.
 
-Update time: 2022-01-20(Thu) 13:36:11
+Update time: 2022-01-21(Fri) 16:38:32
   
 ## Summary
 
 | 🤩 简单 | 🤔 一般 | 🤯 困难 |
 | --- | --- | --- |
-| 26/** 658 ** | 24/** 1327 ** | 3/** 513 ** |
+| 29/** 658 ** | 24/** 1327 ** | 3/** 513 ** |
 
 ## Progress
 
@@ -214,7 +214,7 @@ Update time: 2022-01-20(Thu) 13:36:11
 | 214 | Shortest Palindrome | 🤯 困难 | 🕐 |
 | 215 | Kth Largest Element in an Array | 🤔 一般 | ✅ |
 | 216 | Combination Sum III | 🤔 一般 | 🕐 |
-| 217 | Contains Duplicate | 🤩 简单 | 🕐 |
+| 217 | Contains Duplicate | 🤩 简单 | ✅ |
 | 218 | The Skyline Problem | 🤯 困难 | 🕐 |
 | 219 | Contains Duplicate II | 🤩 简单 | ✅ |
 | 220 | Contains Duplicate III | 🤔 一般 | 🕐 |
@@ -363,7 +363,7 @@ Update time: 2022-01-20(Thu) 13:36:11
 | 364 | Nested List Weight Sum II | 🤔 一般 | 🕐 |
 | 365 | Water and Jug Problem | 🤔 一般 | 🕐 |
 | 366 | Find Leaves of Binary Tree | 🤔 一般 | 🕐 |
-| 367 | Valid Perfect Square | 🤩 简单 | 🕐 |
+| 367 | Valid Perfect Square | 🤩 简单 | ✅ |
 | 368 | Largest Divisible Subset | 🤔 一般 | 🕐 |
 | 369 | Plus One Linked List | 🤔 一般 | 🕐 |
 | 370 | Range Addition | 🤔 一般 | 🕐 |
@@ -1133,7 +1133,7 @@ Update time: 2022-01-20(Thu) 13:36:11
 | 1300 | Sum of Mutated Array Closest to Target | 🤔 一般 | 🕐 |
 | 1274 | Number of Ships in a Rectangle | 🤯 困难 | 🕐 |
 | 1301 | Number of Paths with Max Score | 🤯 困难 | 🕐 |
-| 1137 | N-th Tribonacci Number | 🤩 简单 | 🕐 |
+| 1137 | N-th Tribonacci Number | 🤩 简单 | ✅ |
 | 1138 | Alphabet Board Path | 🤔 一般 | 🕐 |
 | 1139 | Largest 1-Bordered Square | 🤔 一般 | 🕐 |
 | 1140 | Stone Game II | 🤔 一般 | 🕐 |
