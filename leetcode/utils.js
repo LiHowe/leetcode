@@ -44,10 +44,10 @@ function runSeq() {
 
 module.exports = {
     /**
-     * 
-     * @param {Function} fn 
-     * @param {Array} args 
-     * @param {any} expect 
+     *
+     * @param {Function} fn
+     * @param {Array} args
+     * @param {any} expect
      */
     test: (fn, args, expect, showAll = false) => {
         if (!(args instanceof Array)) {
@@ -60,7 +60,7 @@ module.exports = {
     },
     /**
      * 数组转换为二叉树
-     * @param {Array} arr 
+     * @param {Array} arr
      */
     generateTreeNode: (arr) => {
         if (!arr || !arr.length) return null
@@ -69,7 +69,7 @@ module.exports = {
         while (arr.length) {
             const val = arr.shift()
             if (!root.left) {
-                
+
             }
             root[step % 2 ? 'right': 'left'] = new TreeNode(val)
             step++
@@ -78,7 +78,7 @@ module.exports = {
     },
     /**
      * 数组转为链表
-     * @param {Array} arr 
+     * @param {Array} arr
      * @returns {Array}
      */
     generateLinkedList: (arr) => {
