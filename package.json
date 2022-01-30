@@ -8,7 +8,6 @@
     "script": "node scripts/index.mjs",
     "prepare": "husky install"
   },
-  "type": "module",
   "keywords": [
     "leetcode",
     "javascript"
