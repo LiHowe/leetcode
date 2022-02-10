@@ -2,13 +2,13 @@
 
 My LeetCode Repo.
 
-Update time: 2022-01-30(Sun) 18:09:52
+Update time: 2022-02-10(Thu) 16:37:16
   
 ## Summary
 
 | 🤩 简单 | 🤔 一般 | 🤯 困难 |
 | --- | --- | --- |
-| 33/** 661 ** | 25/** 1334 ** | 3/** 517 ** |
+| 39/** 662 ** | 27/** 1341 ** | 4/** 520 ** |
 
 ## Progress
 
@@ -473,7 +473,7 @@ Update time: 2022-01-30(Sun) 18:09:52
 | 482 | License Key Formatting | 🤩 简单 | 🕐 |
 | 483 | Smallest Good Base | 🤯 困难 | 🕐 |
 | 484 | Find Permutation | 🤔 一般 | 🕐 |
-| 485 | Max Consecutive Ones | 🤩 简单 | 🕐 |
+| 485 | Max Consecutive Ones | 🤩 简单 | ✅ |
 | 486 | Predict the Winner | 🤔 一般 | 🕐 |
 | 487 | Max Consecutive Ones II | 🤔 一般 | 🕐 |
 | 488 | Zuma Game | 🤯 困难 | 🕐 |
@@ -971,7 +971,7 @@ Update time: 2022-01-30(Sun) 18:09:52
 | 998 | Maximum Binary Tree II | 🤔 一般 | 🕐 |
 | 999 | Available Captures for Rook | 🤩 简单 | 🕐 |
 | 1000 | Minimum Cost to Merge Stones | 🤯 困难 | 🕐 |
-| 1001 | Grid Illumination | 🤯 困难 | 🕐 |
+| 1001 | Grid Illumination | 🤯 困难 | ✅ |
 | 1002 | Find Common Characters | 🤩 简单 | 🕐 |
 | 1003 | Check If Word Is Valid After Substitutions | 🤔 一般 | 🕐 |
 | 1004 | Max Consecutive Ones III | 🤔 一般 | 🕐 |
@@ -1187,8 +1187,8 @@ Update time: 2022-01-30(Sun) 18:09:52
 | 1191 | K-Concatenation Maximum Sum | 🤔 一般 | 🕐 |
 | 1192 | Critical Connections in a Network | 🤯 困难 | 🕐 |
 | 1957 | Delete Characters to Make Fancy String | 🤩 简单 | 🕐 |
-| 5194 | Minimum Moves to Reach Target Score | 🤔 一般 | 🕐 |
-| 1405 | Longest Happy String | 🤔 一般 | 🕐 |
+| 2139 | Minimum Moves to Reach Target Score | 🤔 一般 | 🕐 |
+| 1405 | Longest Happy String | 🤔 一般 | ✅ |
 | 1944 | Number of Visible People in a Queue | 🤯 困难 | 🕐 |
 | 1200 | Minimum Absolute Difference | 🤩 简单 | 🕐 |
 | 1201 | Ugly Number III | 🤔 一般 | 🕐 |
@@ -1357,7 +1357,7 @@ Update time: 2022-01-30(Sun) 18:09:52
 | 1423 | Maximum Points You Can Obtain from Cards | 🤔 一般 | 🕐 |
 | 1424 | Diagonal Traverse II | 🤔 一般 | 🕐 |
 | 1446 | Consecutive Characters | 🤩 简单 | 🕐 |
-| 1447 | Simplified Fractions | 🤔 一般 | 🕐 |
+| 1447 | Simplified Fractions | 🤔 一般 | ✅ |
 | 1448 | Count Good Nodes in Binary Tree | 🤔 一般 | 🕐 |
 | 1449 | Form Largest Integer With Digits That Add up to Target | 🤯 困难 | 🕐 |
 | 1436 | Destination City | 🤩 简单 | 🕐 |
@@ -1436,7 +1436,7 @@ Update time: 2022-01-30(Sun) 18:09:52
 | 1541 | Minimum Insertions to Balance a Parentheses String | 🤔 一般 | 🕐 |
 | 1546 | Maximum Number of Non-Overlapping Subarrays With Sum Equals Target | 🤔 一般 | 🕐 |
 | 1506 | Find Root of N-Ary Tree | 🤔 一般 | 🕐 |
-| 1528 | Shuffle String | 🤩 简单 | 🕐 |
+| 1528 | Shuffle String | 🤩 简单 | ✅ |
 | 1529 | Minimum Suffix Flips | 🤔 一般 | 🕐 |
 | 1530 | Number of Good Leaf Nodes Pairs | 🤔 一般 | 🕐 |
 | 1516 | Move Sub-Tree of N-Ary Tree | 🤯 困难 | 🕐 |
@@ -1604,7 +1604,7 @@ Update time: 2022-01-30(Sun) 18:09:52
 | 1742 | Maximum Number of Balls in a Box | 🤩 简单 | 🕐 |
 | 1727 | Largest Submatrix With Rearrangements | 🤔 一般 | 🕐 |
 | 1708 | Largest Subarray Length K | 🤩 简单 | 🕐 |
-| 1748 | Sum of Unique Elements | 🤩 简单 | 🕐 |
+| 1748 | Sum of Unique Elements | 🤩 简单 | ✅ |
 | 1749 | Maximum Absolute Sum of Any Subarray | 🤔 一般 | 🕐 |
 | 1750 | Minimum Length of String After Deleting Similar Ends | 🤔 一般 | 🕐 |
 | 1751 | Maximum Number of Events That Can Be Attended II | 🤯 困难 | 🕐 |
@@ -1713,7 +1713,7 @@ Update time: 2022-01-30(Sun) 18:09:52
 | 1855 | Maximum Distance Between a Pair of Values | 🤔 一般 | 🕐 |
 | 1856 | Maximum Subarray Min-Product | 🤔 一般 | 🕐 |
 | 1857 | Largest Color Value in a Directed Graph | 🤯 困难 | 🕐 |
-| 1876 | Substrings of Size Three with Distinct Characters | 🤩 简单 | 🕐 |
+| 1876 | Substrings of Size Three with Distinct Characters | 🤩 简单 | ✅ |
 | 1877 | Minimize Maximum Pair Sum in Array | 🤔 一般 | 🕐 |
 | 1879 | Minimum XOR Sum of Two Arrays | 🤯 困难 | 🕐 |
 | 1878 | Get Biggest Three Rhombus Sums in a Grid | 🤔 一般 | 🕐 |
@@ -1823,7 +1823,7 @@ Update time: 2022-01-30(Sun) 18:09:52
 | 1985 | Find the Kth Largest Integer in the Array | 🤔 一般 | 🕐 |
 | 1986 | Minimum Number of Work Sessions to Finish the Tasks | 🤔 一般 | 🕐 |
 | 1987 | Number of Unique Good Subsequences | 🤯 困难 | 🕐 |
-| 2006 | Count Number of Pairs With Absolute Difference K | 🤩 简单 | 🕐 |
+| 2006 | Count Number of Pairs With Absolute Difference K | 🤩 简单 | ✅ |
 | 2007 | Find Original Array From Doubled Array | 🤔 一般 | 🕐 |
 | 2008 | Maximum Earnings From Taxi | 🤔 一般 | 🕐 |
 | 2009 | Minimum Number of Operations to Make Array Continuous | 🤯 困难 | 🕐 |
@@ -1833,7 +1833,7 @@ Update time: 2022-01-30(Sun) 18:09:52
 | 1997 | First Day Where You Have Been in All the Rooms | 🤔 一般 | 🕐 |
 | 1998 | GCD Sort of an Array | 🤯 困难 | 🕐 |
 | 1973 | Count Nodes Equal to Sum of Descendants | 🤔 一般 | 🕐 |
-| 2000 | Reverse Prefix of Word | 🤩 简单 | 🕐 |
+| 2000 | Reverse Prefix of Word | 🤩 简单 | ✅ |
 | 2001 | Number of Pairs of Interchangeable Rectangles | 🤔 一般 | 🕐 |
 | 2002 | Maximum Product of the Length of Two Palindromic Subsequences | 🤔 一般 | 🕐 |
 | 2003 | Smallest Missing Genetic Value in Each Subtree | 🤯 困难 | 🕐 |
@@ -1947,9 +1947,9 @@ Update time: 2022-01-30(Sun) 18:09:52
 | 2136 | Earliest Possible Day of Full Bloom | 🤯 困难 | 🕐 |
 | 2113 | Elements in Array After Removing and Replacing Elements | 🤔 一般 | 🕐 |
 | 2123 | Minimum Operations to Remove Adjacent Ones in Matrix | 🤯 困难 | 🕐 |
-| 5980 | Divide a String Into Groups of Size k | 🤩 简单 | 🕐 |
-| 5982 | Solving Questions With Brainpower | 🤔 一般 | 🕐 |
-| 5983 | Maximum Running Time of N Computers | 🤯 困难 | 🕐 |
+| 2138 | Divide a String Into Groups of Size k | 🤩 简单 | 🕐 |
+| 2140 | Solving Questions With Brainpower | 🤔 一般 | 🕐 |
+| 2141 | Maximum Running Time of N Computers | 🤯 困难 | 🕐 |
 | 2128 | Remove All Ones With Row and Column Flips | 🤔 一般 | 🕐 |
 | 2137 | Pour Water Between Buckets to Make Water Levels Equal | 🤔 一般 | 🕐 |
 | LCP 02 | Deep Dark Fraction | 🤩 简单 | 🕐 |
@@ -2194,6 +2194,7 @@ Update time: 2022-01-30(Sun) 18:09:52
 | 2084 | Drop Type 1 Orders for Customers With Type 0 Orders | 🤔 一般 | 🕐 |
 | 2112 | The Airport With the Most Traffic | 🤔 一般 | 🕐 |
 | 2118 | Build the Equation | 🤯 困难 | 🕐 |
+| 2142 | The Number of Passengers in Each Bus I | 🤔 一般 | 🕐 |
 | 192 | Word Frequency | 🤔 一般 | 🕐 |
 | 193 | Valid Phone Numbers | 🤩 简单 | 🕐 |
 | 194 | Transpose File | 🤔 一般 | 🕐 |
@@ -2301,7 +2302,7 @@ Update time: 2022-01-30(Sun) 18:09:52
 | 面试题 17.06 | Number Of 2s In Range LCCI | 🤯 困难 | 🕐 |
 | 面试题 17.07 | Baby Names LCCI | 🤔 一般 | 🕐 |
 | 面试题 17.08 | Circus Tower LCCI | 🤔 一般 | 🕐 |
-| 面试题 17.09 | Get Kth Magic Number LCCI | 🤔 一般 | ✅ |
+| 面试题 17.09 | Get Kth Magic Number LCCI | 🤔 一般 | 🕐 |
 | 面试题 17.10 | Find Majority Element LCCI | 🤩 简单 | 🕐 |
 | 面试题 17.11 | Find Closest LCCI | 🤔 一般 | 🕐 |
 | 面试题 10.02 | Group Anagrams LCCI | 🤔 一般 | 🕐 |
@@ -2310,7 +2311,7 @@ Update time: 2022-01-30(Sun) 18:09:52
 | 面试题 17.18 | Shortest Supersequence LCCI | 🤔 一般 | 🕐 |
 | 面试题 17.19 | Missing Two LCCI | 🤯 困难 | 🕐 |
 | 面试题 17.23 | Max Black Square LCCI | 🤔 一般 | 🕐 |
-| 面试题 17.24 | Max Submatrix LCCI | 🤯 困难 | 🕐 |
+| 面试题 17.24 | Max Submatrix LCCI | 🤯 困难 | ✅ |
 | 面试题 16.20 | T9 LCCI | 🤔 一般 | 🕐 |
 | 面试题 16.21 | Sum Swap LCCI | 🤔 一般 | 🕐 |
 | 面试题 17.25 | Word Rectangle LCCI | 🤯 困难 | 🕐 |
@@ -2332,14 +2333,14 @@ Update time: 2022-01-30(Sun) 18:09:52
 | 剑指 Offer 25 | 合并两个排序的链表  LCOF | 🤩 简单 | 🕐 |
 | 剑指 Offer 26 | 树的子结构  LCOF | 🤔 一般 | 🕐 |
 | 剑指 Offer 27 | 二叉树的镜像  LCOF | 🤩 简单 | 🕐 |
-| 剑指 Offer 28 | 对称的二叉树  LCOF | 🤩 简单 | ✅ |
+| 剑指 Offer 28 | 对称的二叉树  LCOF | 🤩 简单 | 🕐 |
 | 剑指 Offer 20 | 表示数值的字符串 LCOF | 🤔 一般 | 🕐 |
 | 剑指 Offer 21 | 调整数组顺序使奇数位于偶数前面 LCOF | 🤩 简单 | 🕐 |
 | 剑指 Offer 15 | 二进制中1的个数 LCOF | 🤩 简单 | 🕐 |
 | 剑指 Offer 29 | 顺时针打印矩阵  LCOF | 🤩 简单 | 🕐 |
 | 剑指 Offer 22 | 链表中倒数第k个节点 LCOF | 🤩 简单 | ✅ |
 | 剑指 Offer 16 | 数值的整数次方 LCOF | 🤔 一般 | 🕐 |
-| 剑指 Offer 17 | 打印从1到最大的n位数 LCOF | 🤩 简单 | ✅ |
+| 剑指 Offer 17 | 打印从1到最大的n位数 LCOF | 🤩 简单 | 🕐 |
 | 剑指 Offer 19 | 正则表达式匹配 LCOF | 🤯 困难 | 🕐 |
 | 剑指 Offer 24 | 反转链表 LCOF | 🤩 简单 | ✅ |
 | 剑指 Offer 18 | 删除链表的节点 LCOF | 🤩 简单 | 🕐 |
@@ -2348,12 +2349,12 @@ Update time: 2022-01-30(Sun) 18:09:52
 | 剑指 Offer 30 | 包含min函数的栈 LCOF | 🤩 简单 | ✅ |
 | 剑指 Offer 41 | 数据流中的中位数  LCOF | 🤯 困难 | 🕐 |
 | 剑指 Offer 42 | 连续子数组的最大和  LCOF | 🤩 简单 | 🕐 |
-| 剑指 Offer 36 | 二叉搜索树与双向链表  LCOF | 🤔 一般 | 🕐 |
+| 剑指 Offer 36 | 二叉搜索树与双向链表  LCOF | 🤔 一般 | ✅ |
 | 剑指 Offer 31 | 栈的压入、弹出序列 LCOF | 🤔 一般 | 🕐 |
-| 剑指 Offer 37 | 序列化二叉树  LCOF | 🤯 困难 | 🕐 |
+| 剑指 Offer 37 | 序列化二叉树  LCOF | 🤯 困难 | ✅ |
 | 剑指 Offer 38 | 字符串的排列  LCOF | 🤔 一般 | 🕐 |
 | 剑指 Offer 43 | 1～n整数中1出现的次数  LCOF | 🤯 困难 | 🕐 |
-| 剑指 Offer 39 | 数组中出现次数超过一半的数字  LCOF | 🤩 简单 | ✅ |
+| 剑指 Offer 39 | 数组中出现次数超过一半的数字  LCOF | 🤩 简单 | 🕐 |
 | 剑指 Offer 32 - I | 从上到下打印二叉树 LCOF | 🤔 一般 | 🕐 |
 | 剑指 Offer 32 - II | 从上到下打印二叉树 II LCOF | 🤩 简单 | 🕐 |
 | 剑指 Offer 44 | 数字序列中某一位的数字  LCOF | 🤔 一般 | 🕐 |
@@ -2361,8 +2362,8 @@ Update time: 2022-01-30(Sun) 18:09:52
 | 剑指 Offer 33 | 二叉搜索树的后序遍历序列 LCOF | 🤔 一般 | 🕐 |
 | 剑指 Offer 50 | 第一个只出现一次的字符  LCOF | 🤩 简单 | 🕐 |
 | 剑指 Offer 34 | 二叉树中和为某一值的路径 LCOF | 🤔 一般 | 🕐 |
-| 剑指 Offer 51 | 数组中的逆序对  LCOF | 🤯 困难 | ✅ |
-| 剑指 Offer 55 - I | 二叉树的深度 LCOF | 🤩 简单 | 🕐 |
+| 剑指 Offer 51 | 数组中的逆序对  LCOF | 🤯 困难 | 🕐 |
+| 剑指 Offer 55 - I | 二叉树的深度 LCOF | 🤩 简单 | ✅ |
 | 剑指 Offer 56 - I | 数组中数字出现的次数 LCOF | 🤔 一般 | 🕐 |
 | 剑指 Offer 56 - II | 数组中数字出现的次数 II LCOF | 🤔 一般 | 🕐 |
 | 剑指 Offer 57 | 和为s的两个数字 LCOF | 🤩 简单 | 🕐 |
@@ -2370,7 +2371,7 @@ Update time: 2022-01-30(Sun) 18:09:52
 | 剑指 Offer 57 - II | 和为s的连续正数序列 LCOF | 🤩 简单 | 🕐 |
 | 剑指 Offer 46 | 把数字翻译成字符串 LCOF | 🤔 一般 | 🕐 |
 | 剑指 Offer 52 | 两个链表的第一个公共节点  LCOF | 🤩 简单 | 🕐 |
-| 剑指 Offer 47 | 礼物的最大价值 LCOF | 🤔 一般 | 🕐 |
+| 剑指 Offer 47 | 礼物的最大价值 LCOF | 🤔 一般 | ✅ |
 | 剑指 Offer 58 - I | 翻转单词顺序 LCOF | 🤩 简单 | 🕐 |
 | 剑指 Offer 53 - I | 在排序数组中查找数字  LCOF | 🤩 简单 | 🕐 |
 | 剑指 Offer 58 - II | 左旋转字符串 LCOF | 🤩 简单 | ✅ |
@@ -2389,7 +2390,7 @@ Update time: 2022-01-30(Sun) 18:09:52
 | 剑指 Offer 62 | 圆圈中最后剩下的数字 LCOF | 🤩 简单 | 🕐 |
 | 剑指 Offer 63 | 股票的最大利润  LCOF | 🤔 一般 | 🕐 |
 | 剑指 Offer 64 | 求1+2+…+n LCOF | 🤔 一般 | 🕐 |
-| 剑指 Offer 68 - I | 二叉搜索树的最近公共祖先 LCOF | 🤩 简单 | ✅ |
+| 剑指 Offer 68 - I | 二叉搜索树的最近公共祖先 LCOF | 🤩 简单 | 🕐 |
 | 剑指 Offer 68 - II | 二叉树的最近公共祖先 LCOF | 🤩 简单 | 🕐 |
 | 剑指 Offer II 001 | 整数除法 | 🤩 简单 | 🕐 |
 | 剑指 Offer II 081 | 允许重复选择元素的组合 | 🤔 一般 | 🕐 |
@@ -2398,7 +2399,7 @@ Update time: 2022-01-30(Sun) 18:09:52
 | 剑指 Offer II 082 | 含有重复元素集合的组合 | 🤔 一般 | 🕐 |
 | 剑指 Offer II 004 | 只出现一次的数字  | 🤔 一般 | 🕐 |
 | 剑指 Offer II 083 | 没有重复元素集合的全排列 | 🤔 一般 | 🕐 |
-| 剑指 Offer II 084 | 含有重复元素集合的全排列  | 🤔 一般 | 🕐 |
+| 剑指 Offer II 084 | 含有重复元素集合的全排列  | 🤔 一般 | ✅ |
 | 剑指 Offer II 005 | 单词长度的最大乘积 | 🤔 一般 | 🕐 |
 | 剑指 Offer II 006 | 排序数组中两个数字之和 | 🤩 简单 | 🕐 |
 | 剑指 Offer II 085 | 生成匹配的括号 | 🤔 一般 | 🕐 |
