@@ -2,13 +2,13 @@
 
 My LeetCode Repo.
 
-Update time: 2022-02-14(Mon) 20:59:15
+Update time: 2022-02-22(Tue) 11:21:59
   
 ## Summary
 
 | 🤩 简单 | 🤔 一般 | 🤯 困难 |
 | --- | --- | --- |
-| 40/** 663 ** | 28/** 1343 ** | 4/** 521 ** |
+| 46/** 665 ** | 30/** 1349 ** | 5/** 524 ** |
 
 ## Progress
 
@@ -1187,7 +1187,7 @@ Update time: 2022-02-14(Mon) 20:59:15
 | 1191 | K-Concatenation Maximum Sum | 🤔 一般 | 🕐 |
 | 1192 | Critical Connections in a Network | 🤯 困难 | 🕐 |
 | 1957 | Delete Characters to Make Fancy String | 🤩 简单 | 🕐 |
-| 5194 | Minimum Moves to Reach Target Score | 🤔 一般 | 🕐 |
+| 2139 | Minimum Moves to Reach Target Score | 🤔 一般 | 🕐 |
 | 1405 | Longest Happy String | 🤔 一般 | 🕐 |
 | 1944 | Number of Visible People in a Queue | 🤯 困难 | 🕐 |
 | 1200 | Minimum Absolute Difference | 🤩 简单 | 🕐 |
@@ -1207,7 +1207,7 @@ Update time: 2022-02-14(Mon) 20:59:15
 | 1217 | Minimum Cost to Move Chips to The Same Position | 🤩 简单 | 🕐 |
 | 1218 | Longest Arithmetic Subsequence of Given Difference | 🤔 一般 | 🕐 |
 | 1219 | Path with Maximum Gold | 🤔 一般 | 🕐 |
-| 1220 | Count Vowels Permutation | 🤯 困难 | 🕐 |
+| 1220 | Count Vowels Permutation | 🤯 困难 | ✅ |
 | 1960 | Maximum Product of the Length of Two Palindromic Substrings | 🤯 困难 | 🕐 |
 | 1206 | Design Skiplist | 🤯 困难 | 🕐 |
 | 1221 | Split a String in Balanced Strings | 🤩 简单 | ✅ |
@@ -1947,9 +1947,9 @@ Update time: 2022-02-14(Mon) 20:59:15
 | 2136 | Earliest Possible Day of Full Bloom | 🤯 困难 | 🕐 |
 | 2113 | Elements in Array After Removing and Replacing Elements | 🤔 一般 | 🕐 |
 | 2123 | Minimum Operations to Remove Adjacent Ones in Matrix | 🤯 困难 | 🕐 |
-| 5980 | Divide a String Into Groups of Size k | 🤩 简单 | 🕐 |
-| 5982 | Solving Questions With Brainpower | 🤔 一般 | 🕐 |
-| 5983 | Maximum Running Time of N Computers | 🤯 困难 | 🕐 |
+| 2138 | Divide a String Into Groups of Size k | 🤩 简单 | 🕐 |
+| 2140 | Solving Questions With Brainpower | 🤔 一般 | 🕐 |
+| 2141 | Maximum Running Time of N Computers | 🤯 困难 | 🕐 |
 | 2128 | Remove All Ones With Row and Column Flips | 🤔 一般 | 🕐 |
 | 2137 | Pour Water Between Buckets to Make Water Levels Equal | 🤔 一般 | 🕐 |
 | LCP 02 | Deep Dark Fraction | 🤩 简单 | 🕐 |
@@ -2194,6 +2194,7 @@ Update time: 2022-02-14(Mon) 20:59:15
 | 2084 | Drop Type 1 Orders for Customers With Type 0 Orders | 🤔 一般 | 🕐 |
 | 2112 | The Airport With the Most Traffic | 🤔 一般 | 🕐 |
 | 2118 | Build the Equation | 🤯 困难 | 🕐 |
+| 2142 | The Number of Passengers in Each Bus I | 🤔 一般 | 🕐 |
 | 192 | Word Frequency | 🤔 一般 | 🕐 |
 | 193 | Valid Phone Numbers | 🤩 简单 | 🕐 |
 | 194 | Transpose File | 🤔 一般 | 🕐 |
