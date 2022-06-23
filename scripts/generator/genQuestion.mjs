@@ -50,6 +50,7 @@ ${escapeString(
   translatedContent
     .replaceAll(/\<\/?\w+\>/g, '')
     .replaceAll('\n \n', '')
+    .replaceAll(' ', ' ')
   )
 }
 
