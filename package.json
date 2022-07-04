@@ -6,7 +6,9 @@
   "scripts": {
     "test": "node ./leetcode",
     "script": "node scripts/index.mjs",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "update:md": "node scripts/index.mjs u",
+    "gen:t": "node scripts/index.mjs g -T"
   },
   "keywords": [
     "leetcode",

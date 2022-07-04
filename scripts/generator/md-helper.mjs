@@ -6,7 +6,7 @@ export function genTableHeader (strArr) {
 }
 
 export function genTableRowByStr (str, breakLine = true) {
-  return `| ${str} |${breakLine ? '\n' : ''}`
+  return `| ${str} | ${breakLine ? '\n' : ''}`
 }
 
 export function genTableRowByObject (obj, breakLine = true) {

@@ -21,15 +21,16 @@ const stateEmoji = {
 
 function genRow (arr = [], statusArr = []) {
   return arr.map((q, i) => {
-    const { questionId, questionFrontendId, title, translatedTitle, difficulty } = q
+    const { questionId, questionFrontendId, title, translatedTitle, titleSlug, difficulty } = q
     const status = arr[i].status || statusArr[i].status
-    return genTableRowByArr([questionFrontendId, title, diffEmoji[difficulty], stateEmoji[status]])
+    const t = `[${title}](https://leetcode-cn.com/problems/${titleSlug})`
+    return genTableRowByArr([questionFrontendId, t, diffEmoji[difficulty], stateEmoji[status]])
   }).join('')
 }
 
 function genHeader () {
   return genTitle(2, 'Progress')
-  + genTableHeader(['序号', '名称', '难度', '状态'])
+  + genTableHeader(['序号', '名称', '&nbsp;难度&nbsp;', '状态'])
 }
 
 function genSummary(summary) {
