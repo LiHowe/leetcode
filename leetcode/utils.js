@@ -7,7 +7,7 @@ const timeLog = (name, fn, args, expect, showAll) => {
     if (!res) err++
     if (showAll || !res) {
         separator()
-        console.log('input  ->', args)
+        console.log('input  ->', args)
         console.log('expect ->', expect)
         console.time(name)
         console.log('output ->', output)
@@ -17,7 +17,7 @@ const timeLog = (name, fn, args, expect, showAll) => {
     }
 }
 const separator = () => {
-    console.log('-----------------------------')
+    console.log('-----------------------------\n')
 }
 
 function TreeNode(val, left, right) {
