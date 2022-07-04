@@ -18,7 +18,7 @@ export function genTableRowByArr (arr, breakLine = true) {
 }
 
 export function genBold (str) {
-  return `** ${str} **`
+  return `**${str}**`
 }
 
 export function genTitle(level, str) {
