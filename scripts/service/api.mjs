@@ -365,7 +365,7 @@ export async function submit(question, code) {
 }
 
 /**
- * 获取提价结果
+ * 获取提交结果
  * @param submission_id
  * @returns {Promise<unknown>}
  */
