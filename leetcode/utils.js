@@ -7,7 +7,7 @@ const timeLog = (name, fn, args, expect, showAll) => {
     if (!res) err++
     if (showAll || !res) {
         separator()
-        console.log('input  ->', args)
+        console.log('input  ->', JSON.stringify(args))
         console.log('expect ->', expect)
         console.time(name)
         console.log('output ->', output)

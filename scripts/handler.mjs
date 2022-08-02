@@ -23,13 +23,14 @@ async function getRandomQuestionId(difficulty) {
 }
 
 
-export async function handleGenerate({
-  today,
-  exact,
-  all,
-  force,
-  random,
-}) {
+export async function handleGenerate(params) {
+  const {
+    today,
+    exact,
+    all,
+    force,
+    random,
+  } = params
   if (all) {
     await handleGenerateAllQuestion()
   } else {
